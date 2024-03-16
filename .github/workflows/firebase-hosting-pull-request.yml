@@ -16,6 +16,7 @@ jobs:
       - run: cd chasmish-app && npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
+          entryPoint: './chasmish-app'
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CHASMISH_APP }}'
           projectId: chasmish-app
