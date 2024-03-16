@@ -1,0 +1,93 @@
+[
+    {
+        "sNo": 1,
+        "photo": "chasmishBookhounds.jpg",
+        "page": "Chasmish Bookhounds",
+        "tagLine": "Kids new/preloved books and toys",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.instagram.com/chasmish_bookhounds",
+                "iconClass": "fa-brands fa-instagram"
+            },
+            {
+                "id": 2,
+                "url": "https://chat.whatsapp.com/D9gHbWPLwflFEkRpoOAMmR",
+                "iconClass": "fab fa-whatsapp"
+            }
+        ]
+    },
+    {
+        "sNo": 2,
+        "photo": "chasmishShop.jpg",
+        "page": "Chasmish Shop",
+        "tagLine": "A Papyrophyliac's shop",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.instagram.com/chasmish_shop",
+                "iconClass": "fab fa-instagram"
+            },
+            {
+                "id": 2,
+                "url": "https://wa.me/9163799668",
+                "iconClass": "fab fa-whatsapp"
+            },
+            {
+                "id": 3,
+                "url": "https://chasmish.mini.store",
+                "iconClass": "fab fa-swiggy"
+            },
+            {
+                "id": 4,
+                "url": "https://www.amazon.in/s?me=A1SUFB3CMHEV5B&ref=sf_seller_app_share_new",
+                "iconClass": "fab fa-amazon"
+            },
+            {
+                "id": 5,
+                "url": "https://in.pinterest.com/ChasmishShop/?invite_code=4827a0f571114c9eb787c9a99650efcf&sender=1045116794685223166",
+                "iconClass": "fab fa-pinterest"
+            }
+        ]
+    },
+    {
+        "sNo": 3,
+        "photo": "chasmishBlog.jpg",
+        "page": "Chasmish Blog",
+        "tagLine": "",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.instagram.com/chasmishblog",
+                "iconClass": "fab fa-instagram"
+            },
+            {
+                "id": 2,
+                "url": "https://chasmishwrites.blogspot.com/",
+                "iconClass": "fab fa-blog"
+            },
+            {
+                "id": 3,
+                "url": "https://podcasters.spotify.com/pod/show/chasmishtalks",
+                "iconClass": "fab fa-spotify"
+            },
+            {
+                "id": 4,
+                "url": "mailto:chasmishblog@gmail.com",
+                "iconClass": "fab fa-email"
+            }
+        ]
+    },
+    {
+        "sNo": 5,
+        "page": "Vikatan article",
+        "tagLine": "",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.vikatan.com/business/startups/online-business-entrepreneur-asmitha-shares-about-her-book-journal-brand",
+                "iconClass": ""
+            }
+        ]
+    }
+]

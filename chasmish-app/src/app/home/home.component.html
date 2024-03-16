@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <ul class="list-group">
+        <li *ngFor="let ipage of pages" class="list-group-item">
+          <!--photo-->
+          <h4>{{ ipage.page }}</h4>
+          <p *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
+          <div>
+            <a *ngFor="let iicon of ipage.links" alt="link" class="icon-link" role="button" href="{{ iicon.url }}" target="_blank">
+              <i class="icon {{ iicon.iconClass }}"></i>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <i class="fa-brands fa-font-awesome"></i> test
+</div>

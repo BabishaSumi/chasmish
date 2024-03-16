@@ -1,0 +1,9 @@
+.icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.125em;
+
+    content: ”\00A3″;
+    font-family: “Font Awesome 5 Free“;
+    font-weight: 900;
+}
