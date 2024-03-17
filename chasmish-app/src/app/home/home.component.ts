@@ -18,20 +18,15 @@ import { Page, Link } from './pages.model';
 export class HomeComponent implements OnInit {
   pagesJson: any = pagesData;
   pages: Page[] = [];
-  chasmishPages: Page[] = [];
-  l = new Link(10, "#", "amazon");
 
   ngOnInit(): void {
 
     this.pages = plainToInstance(Page, this.pagesJson as []);
-    console.log(this.pages);
-    this.pages[0].links[0].fixIcons();
-    
     this.pages.forEach(
       p => p.links.forEach(
         l => {
           l.fixIcons();
-          console.log(l.linkIcon);
+          //console.log(l.linkIcon);
         }));
   }
 

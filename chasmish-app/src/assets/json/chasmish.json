@@ -3,7 +3,7 @@
         "sNo": 1,
         "photo": "chasmishBookhounds.jpg",
         "page": "Chasmish Bookhounds",
-        "tagLine": "Kids new/preloved books and toys",
+        "tagLine": "Kids new & preloved books",
         "links": [
             {
                 "id": 1,
@@ -14,11 +14,34 @@
                 "id": 2,
                 "url": "https://chat.whatsapp.com/D9gHbWPLwflFEkRpoOAMmR",
                 "type": "whatsapp"
+            },
+            {
+                "id": 3,
+                "url": "https://www.youtube.com/@Chasmish_Talks",
+                "type": "youtube"
             }
         ]
     },
     {
         "sNo": 2,
+        "photo": "chasmishToys.svg",
+        "page": "Chasmish Toys",
+        "tagLine": "Kids new & preloved toys",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.instagram.com/chasmish_toys",
+                "type": "instagram"
+            },
+            {
+                "id": 2,
+                "url": "https://chat.whatsapp.com/ItfaPBJA6ea0nINGsOWX5V",
+                "type": "whatsapp"
+            }
+        ]
+    },
+    {
+        "sNo": 3,
         "photo": "chasmishShop.jpg",
         "page": "Chasmish Shop",
         "tagLine": "A Papyrophyliac's shop",
@@ -47,11 +70,16 @@
                 "id": 5,
                 "url": "https://in.pinterest.com/ChasmishShop/?invite_code=4827a0f571114c9eb787c9a99650efcf&sender=1045116794685223166",
                 "type": "pinterest"
+            },
+            {
+                "id": 6,
+                "url": "https://www.youtube.com/@Chasmish_Talks",
+                "type": "youtube"
             }
         ]
     },
     {
-        "sNo": 3,
+        "sNo": 4,
         "photo": "chasmishBlog.jpg",
         "page": "Chasmish Blog",
         "tagLine": "",
@@ -86,7 +114,7 @@
             {
                 "id": 1,
                 "url": "https://www.vikatan.com/business/startups/online-business-entrepreneur-asmitha-shares-about-her-book-journal-brand",
-                "type": "web",
+                "type": "newspaper",
                 "iconClass": ""
             }
         ]

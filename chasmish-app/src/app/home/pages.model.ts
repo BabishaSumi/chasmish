@@ -1,11 +1,9 @@
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import {
-  faInstagram, faYoutube, faBlogger, faAmazon
-  , faSpotify,
-  faWhatsapp,
-  faPinterest,
+  faInstagram, faYoutube, faBlogger, faAmazon, faSpotify,
+  faWhatsapp, faPinterest
 } from '@fortawesome/free-brands-svg-icons';
-import { faShop, faBug, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faShop, faBug, faEnvelope, faNewspaper, faLink } from '@fortawesome/free-solid-svg-icons';
 import 'reflect-metadata';
 import { Type } from 'class-transformer';
 export class Link {
@@ -15,18 +13,8 @@ export class Link {
     this.id = id;
     this.url = url;
     this.type = type;
-
-    switch (this.type) {
-      case "instagram": this.linkIcon = faInstagram; break;
-      case "amazon": this.linkIcon = faAmazon; break;
-      case "youtube": this.linkIcon = faYoutube; break;
-      case "spotify": this.linkIcon = faSpotify; break;
-      case "blogger": this.linkIcon = faBlogger; break;
-      default: this.linkIcon = faBug; break;
-    }
-
-    console.log(this.type);
-    console.log(this.linkIcon);
+    this.linkIcon = faLink;
+    //this.fixIcons();
   }
   fixIcons() {
     switch (this.type) {
@@ -39,6 +27,7 @@ export class Link {
       case "swiggy": this.linkIcon = faShop; break; //TODO: Update this
       case "spotify": this.linkIcon = faSpotify; break;
       case "blogger": this.linkIcon = faBlogger; break;
+      case "newspaper": this.linkIcon = faNewspaper; break;
       default: this.linkIcon = faBug; break;
     }
 
