@@ -8,12 +8,12 @@
             {
                 "id": 1,
                 "url": "https://www.instagram.com/chasmish_bookhounds",
-                "iconClass": "fa-brands fa-instagram"
+                "type": "instagram"
             },
             {
                 "id": 2,
                 "url": "https://chat.whatsapp.com/D9gHbWPLwflFEkRpoOAMmR",
-                "iconClass": "fab fa-whatsapp"
+                "type": "whatsapp"
             }
         ]
     },
@@ -26,27 +26,27 @@
             {
                 "id": 1,
                 "url": "https://www.instagram.com/chasmish_shop",
-                "iconClass": "fab fa-instagram"
+                "type": "instagram"
             },
             {
                 "id": 2,
                 "url": "https://wa.me/9163799668",
-                "iconClass": "fab fa-whatsapp"
+                "type": "whatsapp"
             },
             {
                 "id": 3,
                 "url": "https://chasmish.mini.store",
-                "iconClass": "fab fa-swiggy"
+                "type": "swiggy"
             },
             {
                 "id": 4,
                 "url": "https://www.amazon.in/s?me=A1SUFB3CMHEV5B&ref=sf_seller_app_share_new",
-                "iconClass": "fab fa-amazon"
+                "type": "amazon"
             },
             {
                 "id": 5,
                 "url": "https://in.pinterest.com/ChasmishShop/?invite_code=4827a0f571114c9eb787c9a99650efcf&sender=1045116794685223166",
-                "iconClass": "fab fa-pinterest"
+                "type": "pinterest"
             }
         ]
     },
@@ -59,22 +59,22 @@
             {
                 "id": 1,
                 "url": "https://www.instagram.com/chasmishblog",
-                "iconClass": "fab fa-instagram"
+                "type": "instagram"
             },
             {
                 "id": 2,
                 "url": "https://chasmishwrites.blogspot.com/",
-                "iconClass": "fab fa-blog"
+                "type": "blogger"
             },
             {
                 "id": 3,
                 "url": "https://podcasters.spotify.com/pod/show/chasmishtalks",
-                "iconClass": "fab fa-spotify"
+                "type": "spotify"
             },
             {
                 "id": 4,
                 "url": "mailto:chasmishblog@gmail.com",
-                "iconClass": "fab fa-email"
+                "type": "email"
             }
         ]
     },
@@ -86,6 +86,7 @@
             {
                 "id": 1,
                 "url": "https://www.vikatan.com/business/startups/online-business-entrepreneur-asmitha-shares-about-her-book-journal-brand",
+                "type": "web",
                 "iconClass": ""
             }
         ]

@@ -7,13 +7,13 @@
           <h4>{{ ipage.page }}</h4>
           <p *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
           <div>
-            <a *ngFor="let iicon of ipage.links" alt="link" class="icon-link" role="button" href="{{ iicon.url }}" target="_blank">
-              <i class="icon {{ iicon.iconClass }}"></i>
+            <a *ngFor="let ilink of ipage.links" alt="link" class="icon-link" role="button" href="{{ ilink.url }}"
+              target="_blank">
+              <fa-icon class="spacing" [icon]="ilink.linkIcon"></fa-icon>
             </a>
           </div>
         </li>
       </ul>
     </div>
   </div>
-  <i class="fa-brands fa-font-awesome"></i> test
 </div>
