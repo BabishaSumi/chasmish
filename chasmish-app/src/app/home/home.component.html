@@ -4,9 +4,9 @@
       <ul class="list-group">
         <li *ngFor="let ipage of pages" class="list-group-item">
           <!--photo-->
-          <h4>{{ ipage.page }}</h4>
-          <p *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
-          <div>
+          <h4 class="text-center ">{{ ipage.page }}</h4>
+          <p class="text-center " *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
+          <div class="text-center">
             <a *ngFor="let ilink of ipage.links" alt="link" class="icon-link" 
             role="button" href="{{ ilink.url }}" rel="noopener noreferrer"
               target="_blank">
