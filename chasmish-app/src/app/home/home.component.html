@@ -7,7 +7,8 @@
           <h4>{{ ipage.page }}</h4>
           <p *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
           <div>
-            <a *ngFor="let ilink of ipage.links" alt="link" class="icon-link" role="button" href="{{ ilink.url }}"
+            <a *ngFor="let ilink of ipage.links" alt="link" class="icon-link" 
+            role="button" href="{{ ilink.url }}" rel="noopener noreferrer"
               target="_blank">
               <fa-icon class="spacing" [icon]="ilink.linkIcon"></fa-icon>
             </a>
