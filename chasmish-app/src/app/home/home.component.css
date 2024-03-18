@@ -1,5 +1,38 @@
+:host {
+    --rainbow-gradient: linear-gradient(in hsl longer hue 45deg, red 0 0);
+}
 
-.spacing{
+.page {
+    padding: 0.5rem;
+}
+
+.pageTitle {
+    margin-bottom: 0.5rem;
+}
+
+.pageTagLine {
+    margin-bottom: 0rem;
+}
+.pageIcon {
+    align-content:center;
+    margin-top: 0rem;
+    height: 2.5rem;
+}
+.linkIcon {
+    height: 2rem;
+    vertical-align: text-bottom;
+}
+
+a.aicon:hover,
+a.aicon:focus,
+a.aicon:active {
+    text-decoration: none;
+    color: rgb(44, 5, 77);
+    margin-right: 2rem;
+}
+
+a.aicon {
+    text-decoration: none;
     color: black;
-    padding-right: 20px;
+    margin-right: 2rem;
 }

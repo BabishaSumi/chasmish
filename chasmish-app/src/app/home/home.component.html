@@ -1,20 +1,21 @@
 <div class="container">
-  <div class="row">
-    <div class="col">
-      <ul class="list-group">
-        <li *ngFor="let ipage of pages" class="list-group-item">
-          <!--photo-->
-          <h4 class="text-center ">{{ ipage.page }}</h4>
-          <p class="text-center " *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
-          <div class="text-center">
-            <a *ngFor="let ilink of ipage.links" alt="link" class="icon-link" 
-            role="button" href="{{ ilink.url }}" rel="noopener noreferrer"
-              target="_blank">
-              <fa-icon class="fa-2x spacing" [icon]="ilink.linkIcon"></fa-icon>
-            </a>
-          </div>
-        </li>
-      </ul>
+  <div class="tdivider" ></div>
+  <div *ngFor="let ipage of pages" class="card">
+    <div class="card-body page">
+      <!--photo-->
+      <h3 class="card-title text-center pageTitle k2d-regular">{{ ipage.page }}</h3>
+      <p class="card-text text-center pageTagLine" *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
+      <div class="card-text text-center pageIcon">
+        @for (i of ipage.links; track i) {
+        <a class="aicon iconColor iconPrettify shadows-into-light-regular text-center" role="button" href="{{ i.url }}" rel="noopener" target="_blank">
+          @if(i.type==="swiggy") {
+          <img class="linkIcon iconColor " src="../../assets/img/swiggy-svgrepo-com.svg" alt="swiggy">
+          }
+          @else{
+          <fa-icon class="fa-2x iconColor iconPrettify" [icon]="i.linkIcon"></fa-icon>
+          }
+        </a>
+        }
+      </div>
     </div>
   </div>
-</div>
