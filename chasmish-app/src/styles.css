@@ -42,8 +42,10 @@
     border-bottom-width: 100%;
     border-bottom-style: solid;
     border-image: var(--rainbow1-gradient) 1;
-    /* linear-gradient(to top, red, blue) 1 ; */
+}
 
+.tdivider {
+    margin-block: 1.5rem;
 }
 
 .divider {
@@ -54,6 +56,6 @@
     margin-block: 1.5rem;
 }
 
-.tdivider {
-    margin-block: 1.5rem;
+.noWordWrap{
+display: inline-block;
 }

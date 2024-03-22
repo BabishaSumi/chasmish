@@ -2,21 +2,33 @@
     --rainbow-gradient: linear-gradient(in hsl longer hue 45deg, red 0 0);
 }
 
+.card {
+    /* border-image: linear-gradient(#898bfc, #8eebbf) 1 1; */
+    background-image: linear-gradient(90deg, #fff1eb, #ace0f9);;
+    margin-bottom: 0.5rem;
+}
+
 .page {
     padding: 0.5rem;
 }
 
 .pageTitle {
-    margin-bottom: 0.5rem;
+    color:#001219;
+    margin-bottom: 0rem;
 }
 
 .pageTagLine {
+    color:#9b2226;
+    font-size: medium;
+    margin-top: 0rem;
     margin-bottom: 0rem;
 }
+
 .pageIcon {
-    align-content:center;
-    margin-top: 0rem;
-    height: 2.5rem;
+    height: 2.2rem;
+}
+.iconGap{
+    margin-right:  1rem;
 }
 .linkIcon {
     height: 2rem;
@@ -27,12 +39,17 @@ a.aicon:hover,
 a.aicon:focus,
 a.aicon:active {
     text-decoration: none;
-    color: rgb(44, 5, 77);
-    margin-right: 2rem;
+    color: #3c096c;
 }
 
-a.aicon {
+a.aicon{
     text-decoration: none;
-    color: black;
-    margin-right: 2rem;
+    color: #00296b;
+}
+
+.svgIconColor{
+    filter: invert(10%) sepia(68%) saturate(3914%) hue-rotate(212deg) brightness(94%) contrast(101%);
+}
+.svgIconColor:hover, .svgIconColor:focus, .svgIconColor:active{
+    filter: invert(8%) sepia(63%) saturate(6891%) hue-rotate(272deg) brightness(75%) contrast(103%);
 }

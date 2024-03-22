@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "chasmish-app"
-  }
+  },
+  "targets": {
+    "chasmish-app": {
+      "hosting": {
+        "cba": [
+          "chasmish-by-asmitha"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

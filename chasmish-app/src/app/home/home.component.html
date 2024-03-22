@@ -4,15 +4,15 @@
     <div class="card-body page">
       <!--photo-->
       <h3 class="card-title text-center pageTitle k2d-regular">{{ ipage.page }}</h3>
-      <p class="card-text text-center pageTagLine" *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
+      <p class="card-text text-center pageTagLine shadows-into-light-regular" *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
       <div class="card-text text-center pageIcon">
         @for (i of ipage.links; track i) {
-        <a class="aicon iconColor iconPrettify shadows-into-light-regular text-center" role="button" href="{{ i.url }}" rel="noopener" target="_blank">
+        <a class="aicon text-center iconGap" role="button" href="{{ i.url }}" rel="noopener" target="_blank">
           @if(i.type==="swiggy") {
-          <img class="linkIcon iconColor " src="../../assets/img/swiggy-svgrepo-com.svg" alt="swiggy">
+          <img class="linkIcon svgIconColor "  role="button" src="../../assets/img/swiggy-svgrepo-com.svg" alt="swiggy">
           }
           @else{
-          <fa-icon class="fa-2x iconColor iconPrettify" [icon]="i.linkIcon"></fa-icon>
+          <fa-icon class="fa-2x " [icon]="i.linkIcon"  role="button"></fa-icon>
           }
         </a>
         }
