@@ -18,15 +18,13 @@ import { Page, Link } from './pages.model';
 export class HomeComponent implements OnInit {
   pagesJson: any = pagesData;
   pages: Page[] = [];
-
+  swiggy = "swiggy";
   ngOnInit(): void {
-
     this.pages = plainToInstance(Page, this.pagesJson as []);
     this.pages.forEach(
       p => p.links.forEach(
         l => {
           l.fixIcons();
-          //console.log(l.linkIcon);
         }));
   }
 
