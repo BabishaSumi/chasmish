@@ -10,3 +10,21 @@
     margin: 0rem;
     font-size: xx-large;
 }
+
+@keyframes a-asmi {
+    0% {color: #b70d65;}
+    50% {color: black;}
+    100% {color: #b70d65;}
+}
+
+.a-asmi{
+    animation: a-asmi 10s infinite;
+}
+@keyframes c-asmi {
+    0% {color: #439783;}
+    50% {color: black;}
+    100% {color: #439783;}
+  }
+.c-asmi{
+    animation: c-asmi 10s infinite;
+}

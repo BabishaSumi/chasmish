@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgFor, NgIf } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faInstagram, faYoutube, faBlogger, faAmazon } from '@fortawesome/free-brands-svg-icons';
+// import { faInstagram, faYoutube, faBlogger, faAmazon } from '@fortawesome/free-brands-svg-icons';
 // import { ClassTransformer, plainToClass, plainToClassFromExist } from 'class-transformer';
 import { plainToInstance } from 'class-transformer';
 import 'reflect-metadata';

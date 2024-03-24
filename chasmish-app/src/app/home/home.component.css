@@ -1,11 +1,14 @@
-.container{
+
+.container {
     max-width: 40rem;
 }
+
 .page {
     /* border-image: linear-gradient(#898bfc, #8eebbf) 1 1; */
     /* background-image: linear-gradient(90deg, #f5e0d7, #ace0f9); */
     /* background-image: linear-gradient(90deg,#fefefe, #cec6fc); */
     margin-bottom: 0.5rem;
+    color: var(--contentColor);
 }
 
 .pagePhotoDiv {
@@ -13,30 +16,37 @@
     height: 5rem;
 
 }
-div.card-body{
+
+div.card-body {
     /* background-image: linear-gradient(90deg, #f7ecde, #e9dac1) !important; */
+    /* background-color: black !important; */
+    /* background-image: linear-gradient( 135deg,  #000000 10%, #000000 100%) !important; */
     border-radius: inherit;
-    
 }
 
 div.ChasmishBookhounds.card-body {
     background-color: #39ffed;
+    /* background-image: linear-gradient(90deg, rgba(57, 255, 237, 0.1), rgba(57, 255, 237, 1)); */
 }
 
 div.ChasmishToys.card-body {
     background-color: #d8ff68;
+    /* background-image: linear-gradient(90deg, rgba(216, 255, 104, 0.1), rgba(216, 255, 104, 1)); */
 }
 
 div.ChasmishShop.card-body {
     background-color: #b2fdff;
+    /* background-image: linear-gradient(90deg, rgba(178, 253, 255, 0.1), rgba(178, 253, 255, 1)); */
 }
 
 div.ChasmishBlog.card-body {
     background-color: #A45EE9;
+    /* background-image: linear-gradient(90deg, rgba(164, 94, 233, 0.1), rgba(164, 94, 233, 1)); */
 }
 
 div.VikatanArticle.card-body {
     background-color: #86a7ce;
+    /* background-image: linear-gradient(90deg, rgba(134, 167, 206, 0.1), rgba(134, 167, 206, 1)); */
 }
 
 .pageBody {
@@ -47,7 +57,7 @@ div.VikatanArticle.card-body {
 
 .pagePhotoDiv {
     width: 25%;
-    text-align:center;
+    text-align: center;
 }
 
 .pageContentDiv {
@@ -57,7 +67,7 @@ div.VikatanArticle.card-body {
 .pagePhoto {
     /* width: 5rem; */
     /* height: 5rem; */
-    height:100%;
+    height: 100%;
     border-radius: 50%;
 }
 
@@ -97,12 +107,12 @@ a.aicon:active {
 a.aicon {
     text-decoration: none;
     /* color: #00296b; */
-    color: black;
+    color: var(--contentColor);
 }
 
-/* .svgIconColor {
+/* .svgIconColor { 
     filter: invert(10%) sepia(68%) saturate(3914%) hue-rotate(212deg) brightness(94%) contrast(101%);
-} */
+}  */
 
 .svgIconColor:hover,
 .svgIconColor:focus,
