@@ -25,28 +25,28 @@ div.card-body {
 }
 
 div.ChasmishBookhounds.card-body {
-    background-color: #39ffed;
-    /* background-image: linear-gradient(90deg, rgba(57, 255, 237, 0.1), rgba(57, 255, 237, 1)); */
+    /* background-color: #39ffed; */
+    background-image: linear-gradient(90deg, rgba(57, 255, 237, 0.1), rgba(57, 255, 237, 1));
 }
 
 div.ChasmishToys.card-body {
-    background-color: #d8ff68;
-    /* background-image: linear-gradient(90deg, rgba(216, 255, 104, 0.1), rgba(216, 255, 104, 1)); */
+    /* background-color: #d8ff68; */
+    background-image: linear-gradient(90deg, rgba(216, 255, 104, 0.1), rgba(216, 255, 104, 1));
 }
 
 div.ChasmishShop.card-body {
-    background-color: #b2fdff;
-    /* background-image: linear-gradient(90deg, rgba(178, 253, 255, 0.1), rgba(178, 253, 255, 1)); */
+    /* background-color: #b2fdff; */
+    background-image: linear-gradient(90deg, rgba(178, 253, 255, 0.1), rgba(178, 253, 255, 1));
 }
 
 div.ChasmishBlog.card-body {
-    background-color: #A45EE9;
-    /* background-image: linear-gradient(90deg, rgba(164, 94, 233, 0.1), rgba(164, 94, 233, 1)); */
+    /* background-color: #A45EE9; */
+    background-image: linear-gradient(90deg, rgba(164, 94, 233, 0.1), rgba(164, 94, 233, 1));
 }
 
 div.VikatanArticle.card-body {
-    background-color: #86a7ce;
-    /* background-image: linear-gradient(90deg, rgba(134, 167, 206, 0.1), rgba(134, 167, 206, 1)); */
+    /* background-color: #86a7ce; */
+    background-image: linear-gradient(90deg, rgba(134, 167, 206, 0.1), rgba(134, 167, 206, 1));
 }
 
 .pageBody {
