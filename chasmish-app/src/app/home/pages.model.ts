@@ -34,11 +34,12 @@ export class Link {
   }
 }
 export class Page {
-  sNo: number; photo: string; page: string; tagLine: string;
+  sNo: number; uid: string; photo: string; page: string; tagLine: string;
   @Type(() => Link)
   links: Link[];
-  constructor(sNo: number, photo: string, page: string, tagLine: string, links: Link[]) {
+  constructor(sNo: number, uid: string, photo: string, page: string, tagLine: string, links: Link[]) {
     this.sNo = sNo;
+    this.uid = uid;
     this.photo = photo;
     this.page = page;
     this.tagLine = tagLine;

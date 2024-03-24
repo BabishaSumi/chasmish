@@ -1,7 +1,8 @@
 [
     {
         "sNo": 1,
-        "photo": "chasmishBookhounds.jpg",
+        "uid": "ChasmishBookhounds",
+        "photo": "ChasmishBookhounds.jpg",
         "page": "Chasmish Bookhounds",
         "tagLine": "Kids' new & preloved books",
         "links": [
@@ -24,7 +25,8 @@
     },
     {
         "sNo": 2,
-        "photo": "chasmishToys.svg",
+        "uid": "ChasmishToys",
+        "photo": "ChasmishToys.jpg",
         "page": "Chasmish Toys",
         "tagLine": "Kids' new toys",
         "links": [
@@ -42,9 +44,10 @@
     },
     {
         "sNo": 3,
-        "photo": "chasmishShop.jpg",
+        "uid": "ChasmishShop",
+        "photo": "ChasmishShopCropped.jpg",
         "page": "Chasmish Shop",
-        "tagLine": "A Papyrophyliac's shop",
+        "tagLine": "A Papyrophyliac's shop | Book Journals, Bookmarks, Calendar & more",
         "links": [
             {
                 "id": 1,
@@ -58,31 +61,32 @@
             },
             {
                 "id": 3,
-                "url": "https://chasmish.mini.store",
-                "type": "swiggy"
-            },
-            {
-                "id": 4,
                 "url": "https://www.amazon.in/s?me=A1SUFB3CMHEV5B&ref=sf_seller_app_share_new",
                 "type": "amazon"
             },
             {
+                "id": 4,
+                "url": "https://chasmish.mini.store",
+                "type": "swiggy"
+            },
+            {
                 "id": 5,
-                "url": "https://in.pinterest.com/ChasmishShop/?invite_code=4827a0f571114c9eb787c9a99650efcf&sender=1045116794685223166",
-                "type": "pinterest"
+                "url": "https://www.youtube.com/@Chasmish_Talks",
+                "type": "youtube"
             },
             {
                 "id": 6,
-                "url": "https://www.youtube.com/@Chasmish_Talks",
-                "type": "youtube"
+                "url": "https://in.pinterest.com/ChasmishShop/?invite_code=4827a0f571114c9eb787c9a99650efcf&sender=1045116794685223166",
+                "type": "pinterest"
             }
         ]
     },
     {
         "sNo": 4,
-        "photo": "chasmishBlog.jpg",
+        "uid": "ChasmishBlog",
+        "photo": "ChasmishBlog.jpg",
         "page": "Chasmish Blog",
-        "tagLine": "",
+        "tagLine": "Tamil poems | Tamil & English Scribbles | Product reviews | Art",
         "links": [
             {
                 "id": 1,
@@ -108,6 +112,8 @@
     },
     {
         "sNo": 5,
+        "uid": "VikatanArticle",
+        "photo": "VikatanArticleWeb.png",
         "page": "Vikatan article",
         "tagLine": "",
         "links": [
