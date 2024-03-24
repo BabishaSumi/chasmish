@@ -14,7 +14,6 @@ export class Link {
     this.url = url;
     this.type = type;
     this.linkIcon = faLink;
-    //this.fixIcons();
   }
   fixIcons() {
     switch (this.type) {
@@ -24,7 +23,7 @@ export class Link {
       case "whatsapp": this.linkIcon = faWhatsapp; break;
       case "pinterest": this.linkIcon = faPinterest; break;
       case "email": this.linkIcon = faEnvelope; break;
-      case "swiggy": this.linkIcon = faShop; break; //TODO: Update this
+      case "swiggy": this.linkIcon = faShop; break; 
       case "spotify": this.linkIcon = faSpotify; break;
       case "blogger": this.linkIcon = faBlogger; break;
       case "newspaper": this.linkIcon = faNewspaper; break;
@@ -34,11 +33,12 @@ export class Link {
   }
 }
 export class Page {
-  sNo: number; photo: string; page: string; tagLine: string;
+  sNo: number; uid: string; photo: string; page: string; tagLine: string;
   @Type(() => Link)
   links: Link[];
-  constructor(sNo: number, photo: string, page: string, tagLine: string, links: Link[]) {
+  constructor(sNo: number, uid: string, photo: string, page: string, tagLine: string, links: Link[]) {
     this.sNo = sNo;
+    this.uid = uid;
     this.photo = photo;
     this.page = page;
     this.tagLine = tagLine;

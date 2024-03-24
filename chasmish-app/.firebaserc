@@ -7,6 +7,13 @@
       "hosting": {
         "cba": [
           "chasmish-by-asmitha"
+        ],
+        "staging": [
+          "chasmish-app"
+        ],
+        "app": [
+          "cba",
+          "staging"
         ]
       }
     }

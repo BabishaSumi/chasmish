@@ -1,35 +1,97 @@
-:host {
-    --rainbow-gradient: linear-gradient(in hsl longer hue 45deg, red 0 0);
-}
 
-.card {
-    /* border-image: linear-gradient(#898bfc, #8eebbf) 1 1; */
-    background-image: linear-gradient(90deg, #fff1eb, #ace0f9);;
-    margin-bottom: 0.5rem;
+.container {
+    max-width: 40rem;
 }
 
 .page {
-    padding: 0.5rem;
+    /* border-image: linear-gradient(#898bfc, #8eebbf) 1 1; */
+    /* background-image: linear-gradient(90deg, #f5e0d7, #ace0f9); */
+    /* background-image: linear-gradient(90deg,#fefefe, #cec6fc); */
+    margin-bottom: 0.5rem;
+    color: var(--contentColor);
 }
 
+.pagePhotoDiv {
+    width: 5rem;
+    height: 5rem;
+
+}
+
+div.card-body {
+    /* background-image: linear-gradient(90deg, #f7ecde, #e9dac1) !important; */
+    /* background-color: black !important; */
+    /* background-image: linear-gradient( 135deg,  #000000 10%, #000000 100%) !important; */
+    border-radius: inherit;
+}
+
+div.ChasmishBookhounds.card-body {
+    /* background-color: #39ffed; */
+    background-image: linear-gradient(90deg, rgba(57, 255, 237, 0.1), rgba(57, 255, 237, 1));
+}
+
+div.ChasmishToys.card-body {
+    /* background-color: #d8ff68; */
+    background-image: linear-gradient(90deg, rgba(216, 255, 104, 0.1), rgba(216, 255, 104, 1));
+}
+
+div.ChasmishShop.card-body {
+    /* background-color: #b2fdff; */
+    background-image: linear-gradient(90deg, rgba(178, 253, 255, 0.1), rgba(178, 253, 255, 1));
+}
+
+div.ChasmishBlog.card-body {
+    /* background-color: #A45EE9; */
+    background-image: linear-gradient(90deg, rgba(164, 94, 233, 0.1), rgba(164, 94, 233, 1));
+}
+
+div.VikatanArticle.card-body {
+    /* background-color: #86a7ce; */
+    background-image: linear-gradient(90deg, rgba(134, 167, 206, 0.1), rgba(134, 167, 206, 1));
+}
+
+.pageBody {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.pagePhotoDiv {
+    width: 25%;
+    text-align: center;
+}
+
+.pageContentDiv {
+    width: 75%;
+}
+
+.pagePhoto {
+    /* width: 5rem; */
+    /* height: 5rem; */
+    height: 100%;
+    border-radius: 50%;
+}
+
+
 .pageTitle {
-    color:#001219;
+    /* color: #012a3a; */
     margin-bottom: 0rem;
 }
 
 .pageTagLine {
-    color:#9b2226;
-    font-size: medium;
+    /* color: #217ce4; */
+    font-size: small;
     margin-top: 0rem;
     margin-bottom: 0rem;
 }
 
-.pageIcon {
-    height: 2.2rem;
+/* .pageIcon {
+    height: fit-content;
+} */
+
+.iconGap {
+    margin-right: 0.5rem;
 }
-.iconGap{
-    margin-right:  1rem;
-}
+
 .linkIcon {
     height: 2rem;
     vertical-align: text-bottom;
@@ -42,14 +104,18 @@ a.aicon:active {
     color: #3c096c;
 }
 
-a.aicon{
+a.aicon {
     text-decoration: none;
-    color: #00296b;
+    /* color: #00296b; */
+    color: var(--contentColor);
 }
 
-.svgIconColor{
+/* .svgIconColor { 
     filter: invert(10%) sepia(68%) saturate(3914%) hue-rotate(212deg) brightness(94%) contrast(101%);
-}
-.svgIconColor:hover, .svgIconColor:focus, .svgIconColor:active{
+}  */
+
+.svgIconColor:hover,
+.svgIconColor:focus,
+.svgIconColor:active {
     filter: invert(8%) sepia(63%) saturate(6891%) hue-rotate(272deg) brightness(75%) contrast(103%);
 }

@@ -1,21 +1,25 @@
 <div class="container">
   <div class="tdivider" ></div>
-  <div *ngFor="let ipage of pages" class="card">
-    <div class="card-body page">
-      <!--photo-->
-      <h3 class="card-title text-center pageTitle k2d-regular">{{ ipage.page }}</h3>
-      <p class="card-text text-center pageTagLine shadows-into-light-regular" *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
-      <div class="card-text text-center pageIcon">
+  <div *ngFor="let ipage of pages" class="card page">
+    <div class="card-body pageBody {{ipage.uid}}">
+      <div class="pagePhotoDiv align-middle">
+        <img class="pagePhoto circle text-center align-middle {{ipage.uid}}" src="../../assets/img/{{ipage.photo}}" alt="{{ipage.page}}">
+      </div>
+      <div class="pageContentDiv">
+      <h4 class="card-title text-center font-weight-bold pageTitle k2d-regular">{{ ipage.page }}</h4>
+      <p class="card-text text-center pageTagLine" *ngIf="ipage.tagLine">{{ ipage.tagLine }}</p>
+      <div class="card-text text-center pageIcon ">
         @for (i of ipage.links; track i) {
         <a class="aicon text-center iconGap" role="button" href="{{ i.url }}" rel="noopener" target="_blank">
           @if(i.type==="swiggy") {
-          <img class="linkIcon svgIconColor "  role="button" src="../../assets/img/swiggy-svgrepo-com.svg" alt="swiggy">
+          <img class="linkIcon svgIconColor " src="../../assets/img/swiggy-svgrepo-com.svg" alt="swiggy">
           }
           @else{
-          <fa-icon class="fa-2x " [icon]="i.linkIcon"  role="button"></fa-icon>
+          <fa-icon class="fa-2x " [icon]="i.linkIcon"></fa-icon>
           }
         </a>
         }
+      </div>
       </div>
     </div>
   </div>

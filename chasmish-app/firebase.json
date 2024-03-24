@@ -5,8 +5,8 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "target": "chasmish-app",
-    "public": "dist/chasmish-app",
+    "target": "staging",
+    "public": "dist/chasmish-app-staging/browser",
     "frameworksBackend": {
       "region": "asia-east1"
     }
