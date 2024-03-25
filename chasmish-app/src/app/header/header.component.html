@@ -1,24 +1,27 @@
 <!-- header.component.html -->
-<nav class="navbar navbar-expand-lg rainbowBottomBorder">
+<nav class="navbar rainbowBottomBorder">
   <div class="container ">
-    <a class="navbar-brand brand" href=""> 
-      <span class="antic-bold chasmish"> Ch<span class="c-asmi">asmi</span>sh </span>
-      <span class="lh-1 qwitcher-grypen-bold byasmitha"> by <span class="a-asmi">Asmi</span>tha</span>
+    <!-- <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" type="button"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <a class="navbar-brand brand">
+      <span role="button" [routerLink]="['/home']">
+        <span class=" antic-bold chasmish"> Ch<span class="c-asmi">asmi</span>sh </span>
+        <span class="lh-1 qwitcher-grypen-bold byasmitha"> by <span class="a-asmi">Asmi</span>tha</span>
+      </span>
     </a>
-    <!-- TODO <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-    <!-- <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-        </ul>
-      </div> -->
   </div>
-
 </nav>
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav me-auto">
+    <li class="nav-item">
+      <a class="nav-link active" [routerLink]="['/home']" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/about']" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        About</a>
+    </li>
+  </ul>
+</div>
