@@ -1,10 +1,10 @@
 <!-- header.component.html -->
 <nav class="navbar rainbowBottomBorder">
   <div class="container ">
-    <!-- <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" type="button"
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" type="button"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button> -->
+    </button>
     <a class="navbar-brand brand">
       <span role="button" [routerLink]="['/home']">
         <span class=" antic-bold chasmish"> Ch<span class="c-asmi">asmi</span>sh </span>
@@ -14,10 +14,14 @@
   </div>
 </nav>
 <div class="collapse navbar-collapse" id="navbarNav">
-  <ul class="navbar-nav me-auto">
+  <ul class="navbar-nav me-auto flex-column">
     <li class="nav-item">
       <a class="nav-link active" [routerLink]="['/home']" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/faq']" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        FAQ</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" [routerLink]="['/about']" data-bs-toggle="collapse" data-bs-target="#navbarNav">

@@ -6,7 +6,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { plainToInstance } from 'class-transformer';
 import 'reflect-metadata';
 import pagesData from '../../assets/json/chasmish.json';
-import { Page, Link } from './pages.model';
+import { Page } from './pages.model';
 @Component({
   selector: 'app-home',
   standalone: true,

@@ -1,0 +1,26 @@
+[
+    {
+        "q": "Where are you based from?",
+        "a": "Chennai, Tamil Nadu, India"
+    },
+    {
+        "q": "How many days does it take to dispatch the order?",
+        "a": "We will dispatch as soon as possible. We will dispatch within two days. "
+    },
+    {
+        "q": "Are you available in WhatsApp chat for any enquiry/order? ",
+        "a": "Yes, we are available in WhatsApp for customer's queries. "
+    },
+    {
+        "q": "Shall we enquire about availability of any books/products that are not listed? ",
+        "a": "Yes, we are here to help you. Please reach us through Whatsapp."
+    },
+    {
+        "q": "Is customisation available on book journals?",
+        "a": "Sorry, customisation is not available as of now. "
+    },
+    {
+        "q": "Do you take bulk/ return gift orders?",
+        "a": "Yes. Please provide your requirement and budget. We will let you know if that is feasible from our sidende."
+    }
+]
