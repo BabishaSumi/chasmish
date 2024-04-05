@@ -6,7 +6,7 @@
 .page {
     /* border-image: linear-gradient(#898bfc, #8eebbf) 1 1; */
     /* background-image: linear-gradient(90deg, #f5e0d7, #ace0f9); */
-    /* background-image: linear-gradient(90deg,#fefefe, #cec6fc); */
+    /* background-image: linear-gradient(90deg, #fefefe, #cec6fc); */
     margin-bottom: 0.5rem;
     color: var(--contentColor);
 }
@@ -14,7 +14,6 @@
 .pagePhotoDiv {
     width: 5rem;
     height: 5rem;
-
 }
 
 div.card-body {
@@ -55,10 +54,6 @@ div.VikatanArticle.card-body {
     align-items: center;
 }
 
-.pagePhotoDiv {
-    width: 25%;
-    text-align: center;
-}
 
 .pageContentDiv {
     width: 75%;

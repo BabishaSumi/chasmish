@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import 'reflect-metadata';
-import { Type } from 'class-transformer';
 import { plainToInstance } from 'class-transformer';
 import faqData from '../../assets/json/faq.json';
 
@@ -13,13 +12,13 @@ import faqData from '../../assets/json/faq.json';
 })
 export class FAQComponent {
   faqJson: any = faqData;
-  faqs: faq[] = [];
+  faqs: Faq[] = [];
   ngOnInit(): void {
-    this.faqs = plainToInstance(faq, this.faqJson as []);
+    this.faqs = plainToInstance(Faq, this.faqJson as []);
   }
 
 }
-export class faq {
+export class Faq {
   public q: string;
   public a: string;
   constructor(q: string, a: string) {

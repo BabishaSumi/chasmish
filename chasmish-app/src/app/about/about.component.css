@@ -1,11 +1,13 @@
-.accordion-button{
-    background-color:rgb(149, 235, 235);
+.accordion-button {
+    background-color: rgb(149, 235, 235);
 }
-.asmi{
-    max-width:10rem;
-    max-height:10rem;
+
+.asmi {
+    max-width: 10rem;
+    max-height: 10rem;
     border-radius: 50%;
 }
-.aboutAsmi{ 
+
+.aboutAsmi {
     text-align: center;
 }

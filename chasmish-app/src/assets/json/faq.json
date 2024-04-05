@@ -5,7 +5,7 @@
     },
     {
         "q": "How many days does it take to dispatch the order?",
-        "a": "We will dispatch as soon as possible. We will dispatch within two days. "
+        "a": "We will dispatch as soon as possible - mostly within two days. "
     },
     {
         "q": "Are you available in WhatsApp chat for any enquiry/order? ",
@@ -20,7 +20,7 @@
         "a": "Sorry, customisation is not available as of now. "
     },
     {
-        "q": "Do you take bulk/ return gift orders?",
-        "a": "Yes. Please provide your requirement and budget. We will let you know if that is feasible from our sidende."
+        "q": "Do you take bulk/return gift orders?",
+        "a": "Yes. Please provide your requirement and budget. We will let you know if that is feasible from our end."
     }
 ]

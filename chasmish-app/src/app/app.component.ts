@@ -13,5 +13,4 @@ import { WhatsappIconComponent } from './whatsapp-icon/whatsapp-icon.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'chasmish-app';
 }
