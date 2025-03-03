@@ -1,26 +1,100 @@
 [
     {
-        "q": "Where are you based from?",
-        "a": "Chennai, Tamil Nadu, India"
+        "group": "General FAQ",
+        "faqItems": [
+            {
+                "q": "Where are you based from?",
+                "a": "Chennai, Tamil Nadu, India"
+            },
+            {
+                "q": "How many days does it take to dispatch the order?",
+                "a": "We will dispatch as soon as possible - mostly within two days. "
+            },
+            {
+                "q": "Are you available in WhatsApp chat for any enquiry/order?",
+                "a": "Yes, we are available in WhatsApp for customer's queries."
+            },
+            {
+                "q": "Shall we enquire about availability of any books/products that are not listed?",
+                "a": "Yes, we are here to help you. Please reach us through Whatsapp."
+            },
+            {
+                "q": "Do you take bulk/return gift orders?",
+                "a": "Yes. Please provide your requirement and budget. We will let you know if that is feasible from our end."
+            },
+            {
+                "q": "How can I place an order?",
+                "a": "You can place an order by sending us a direct message on Instagram or WhatsApp. Please include the product name and quantity."
+            },
+            {
+                "q": "What payment methods do you accept?",
+                "a": "We accept various payment methods, including credit/debit cards, UPI, and digital wallets. Detailed payment instructions will be provided upon order confirmation."
+            },
+            {
+                "q": "Do you offer delivery services?",
+                "a": "Yes, we offer delivery services across multiple locations. Delivery charges and times may vary based on your location."
+            },
+            {
+                "q": "How can I track my order?",
+                "a": "Once your order is dispatched, we will provide you with a tracking number to track your shipment online."
+            }
+        ]
     },
     {
-        "q": "How many days does it take to dispatch the order?",
-        "a": "We will dispatch as soon as possible - mostly within two days. "
+        "group": "Chasmish Bookhounds",
+        "faqItems": [
+            {
+                "q": "What age group are the books suitable for?",
+                "a": "We offer books for various age groups, from toddlers to teenagers."
+            },
+            {
+                "q": "Are there any picture books available?",
+                "a": "Absolutely! We have a beautiful collection of picture books perfect for young readers."
+            }
+        ]
     },
     {
-        "q": "Are you available in WhatsApp chat for any enquiry/order? ",
-        "a": "Yes, we are available in WhatsApp for customer's queries. "
+        "group": "Chasmish Toys",
+        "faqItems": [
+            {
+                "q": "What types of toys do you sell?",
+                "a": "We offer a variety of toys, including educational toys, puzzles, and building blocks."
+            },
+            {
+                "q": "Do you have toys that encourage learning and creativity?",
+                "a": "Yes, we have a range of educational toys designed to enhance learning and stimulate creativity in children."
+            }
+        ]
     },
     {
-        "q": "Shall we enquire about availability of any books/products that are not listed? ",
-        "a": "Yes, we are here to help you. Please reach us through Whatsapp."
+        "group": "Chasmish Reads",
+        "faqItems": [
+            {
+                "q": "Do you have novels in Tamil and English?",
+                "a": "Yes, we offer a curated collection of captivating novels in both Tamil and English."
+            }
+        ]
     },
     {
-        "q": "Is customisation available on book journals?",
-        "a": "Sorry, customisation is not available as of now. "
+        "group": "Chasmish Shop",
+        "faqItems": [
+            {
+                "q": "What types of stationery do you sell?",
+                "a": "We offer a wide range of stationery, including notebooks, journals, pens, pencils, calendars, and more."
+            },
+            {
+                "q": "Do you have custom-designed stationery?",
+                "a": "Yes, we have unique and custom-designed stationery items that you won't find anywhere else."
+            }
+        ]
     },
     {
-        "q": "Do you take bulk/return gift orders?",
-        "a": "Yes. Please provide your requirement and budget. We will let you know if that is feasible from our end."
+        "group": "Chasmish",
+        "faqItems": [
+            {
+                "q": "Is customization available on book journals?",
+                "a": "Sorry, customization is not available as of now."
+            }
+        ]
     }
 ]

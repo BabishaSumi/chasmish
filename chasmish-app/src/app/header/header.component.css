@@ -1,3 +1,65 @@
+.navbar {
+    z-index: 1001; /* Higher z-index for navbar */
+    width: 100%;
+    top: 0; 
+    height: 4rem; 
+    justify-content: space-between;
+    display: flex; /* Center content vertically */
+    align-items: center; /* Center content vertically */
+}
+
+.menu-container { /* New class for alignment */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    
+}
+
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 1rem; /* Adjusted for alignment */
+
+}
+
+.bar1, .bar2, .bar3 {
+    width: 2rem; 
+    height: 0.3rem; 
+    background-color: #333; 
+    margin: 0.4rem 0; /* Adjusted for same height */
+    transition: 0.4s;
+}
+
+.menuchange.bar1 {
+    transform: translate(0, 0.7rem) rotate(-45deg); /* Adjusted transform for same height */
+}
+
+.menuchange.bar2 {
+    opacity: 0;
+}
+
+.menuchange.bar3 {
+    transform: translate(0, -0.7rem) rotate(45deg); /* Adjusted transform for same height */
+}
+
+.route {
+    color: #b70d65;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.brand {
+    text-align: right;
+    margin: 0rem;
+    font-size: xx-large;
+}
+
 .chasmish {
     color: #439783;
 }
@@ -6,25 +68,73 @@
     color: #b70d65;
 }
 
-.brand {
-    margin: 0rem;
-    font-size: xx-large;
-}
-
 @keyframes a-asmi {
     0% {color: #b70d65;}
     50% {color: black;}
     100% {color: #b70d65;}
 }
 
-.a-asmi{
+.a-asmi {
     animation: a-asmi 10s infinite;
 }
+
 @keyframes c-asmi {
     0% {color: #439783;}
     50% {color: black;}
     100% {color: #439783;}
-  }
-.c-asmi{
+}
+
+.c-asmi {
     animation: c-asmi 10s infinite;
+}
+
+.side-menu {
+    height: calc(100% - 4rem); 
+    padding-top: 4rem; 
+    width: 0;
+    position: fixed; 
+    left: 0;
+    background-color: #f0f0f0; /* Light Pastel Background */
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1000; /* Lower z-index than navbar */
+}
+
+.side-menu.menu-open {
+    width: 250px;
+}
+
+.side-menu .navbar-nav {
+    padding: 0;
+}
+
+.side-menu .nav-item {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-menu .nav-item.active {
+    background-color: #b3cde0; /* Soft Blue Highlight */
+    color: white; /* White text for contrast */
+}
+
+.side-menu .nav-item.active a {
+    color: #000000; 
+}
+
+.side-menu .nav-item:hover {
+    background-color: #d3e1dc;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link {
+    color: #333;
+    transition: 0.3s;
 }

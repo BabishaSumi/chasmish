@@ -1,5 +1,5 @@
 
-.container {
+.cardcontainer {
     max-width: 40rem;
 }
 
@@ -21,6 +21,7 @@ div.card-body {
     /* background-color: black !important; */
     /* background-image: linear-gradient( 135deg,  #000000 10%, #000000 100%) !important; */
     border-radius: inherit;
+    background-image: linear-gradient(90deg, rgba(225, 238, 188, 0.1), rgba(225, 238, 188, 1));
 }
 
 div.ChasmishBookhounds.card-body {
@@ -47,7 +48,15 @@ div.VikatanArticle.card-body {
     /* background-color: #86a7ce; */
     background-image: linear-gradient(90deg, rgba(134, 167, 206, 0.1), rgba(134, 167, 206, 1));
 }
-
+div.ChasmishKidsBookshelf.card-body {
+    background-image: linear-gradient(90deg, rgba(255, 219, 244, 0.1), rgba(255, 219, 244, 1));
+}
+div.ChasmishReads.card-body {
+    background-image: linear-gradient(90deg, rgba(109, 83, 127, 0.1), rgba(109, 83, 127, 1));
+}
+div.ChasmishVentures.card-body {
+    background-image: linear-gradient(90deg, rgba(255, 219, 244, 0.1), rgba(255, 219, 244, 1));
+}
 .pageBody {
     padding: 0.5rem;
     display: flex;

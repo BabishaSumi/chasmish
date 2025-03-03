@@ -42,8 +42,34 @@
             }
         ]
     },
+    
+    {
+        "sNo": 4,
+        "uid": "ChasmishReads",
+        "photo": "ChasmishReads.png",
+        "page": "Chasmish Reads",
+        "tagLine": "Novels & Books for all ages",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://chat.whatsapp.com/GKiacvXVlHl4cW14Ilxe40 ",
+                "type": "whatsapp"
+            }]},
+            
     {
         "sNo": 3,
+        "uid": "ChasmishKidsBookshelf",
+        "photo": "ChasmishKidsBookshelf.png",
+        "page": "Chasmish Kids Bookshelf",
+        "tagLine": "Kids' bookshelves",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://chat.whatsapp.com/DoxgFuz6K5d8Nj72ByUR0o",
+                "type": "whatsapp"
+            }]},
+    {
+        "sNo": 5,
         "uid": "ChasmishShop",
         "photo": "ChasmishShopCropped.jpg",
         "page": "Chasmish Shop",
@@ -82,7 +108,7 @@
         ]
     },
     {
-        "sNo": 4,
+        "sNo": 6,
         "uid": "ChasmishBlog",
         "photo": "ChasmishBlog.jpg",
         "page": "Chasmish Blog",
@@ -111,7 +137,7 @@
         ]
     },
     {
-        "sNo": 5,
+        "sNo": 7,
         "uid": "VikatanArticle",
         "photo": "VikatanArticleWeb.png",
         "page": "Vikatan article",
