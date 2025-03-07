@@ -10,7 +10,13 @@
       "public": "dist/chasmish-app-staging/browser",
       "frameworksBackend": {
         "region": "asia-east1"
-      }
+      },
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
     },
     {
       "ignore": [
@@ -22,7 +28,13 @@
       "public": "dist/chasmish-app/browser",
       "frameworksBackend": {
         "region": "asia-east1"
-      }
+      },
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
     }
   ]
 }
