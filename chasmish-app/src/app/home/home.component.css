@@ -34,9 +34,9 @@ div.ChasmishToys.card-body {
     background-image: linear-gradient(90deg, rgba(216, 255, 104, 0.1), rgba(216, 255, 104, 1));
 }
 
-div.ChasmishShop.card-body {
+div.ChasmishExclusives.card-body {
     /* background-color: #b2fdff; */
-    background-image: linear-gradient(90deg, rgba(178, 253, 255, 0.1), rgba(178, 253, 255, 1));
+    background-image: linear-gradient(90deg, rgba(252,186,206, 0.1), rgba(252, 186, 206, 1));
 }
 
 div.ChasmishBlog.card-body {
@@ -53,9 +53,6 @@ div.ChasmishKidsBookshelf.card-body {
 }
 div.ChasmishReads.card-body {
     background-image: linear-gradient(90deg, rgba(109, 83, 127, 0.1), rgba(109, 83, 127, 1));
-}
-div.ChasmishVentures.card-body {
-    background-image: linear-gradient(90deg, rgba(255, 219, 244, 0.1), rgba(255, 219, 244, 1));
 }
 .pageBody {
     padding: 0.5rem;
