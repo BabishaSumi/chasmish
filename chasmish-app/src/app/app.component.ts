@@ -6,11 +6,10 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { WhatsappIconComponent } from './whatsapp-icon/whatsapp-icon.component';
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, HeaderComponent, HomeComponent, FooterComponent, AboutComponent, WhatsappIconComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    imports: [RouterOutlet, HeaderComponent, HomeComponent, FooterComponent, AboutComponent, WhatsappIconComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css'
 })
 export class AppComponent {
 }
