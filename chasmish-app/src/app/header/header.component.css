@@ -1,33 +1,39 @@
 .navbar {
     z-index: 1001; /* Higher z-index for navbar */
     width: 100%;
-    top: 0; 
-    height: 4rem; 
+    top: 0;
+    height: var(--navbarHeight);
     justify-content: space-between;
     display: flex; /* Center content vertically */
     align-items: center; /* Center content vertically */
+    position: fixed; /* Keep navbar fixed at the top */
+    background-color: #f8f9fa; /* Background color */
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+    overflow: hidden; /* Prevent content spill */
 }
-
-.menu-container { /* New class for alignment */
-    display: flex;
+.navbar-toggler
+{
+    padding: 0.1rem;
+    box-shadow: none;
+    border: none;
+}
+.menu-container
+{
+    display: inline-block;
     align-items: center; /* Center content vertically */
-    
 }
 
 .menu-icon {
     display: inline-block;
     cursor: pointer;
-    margin-right: 1rem; /* Adjusted for alignment */
+    margin: 0.1rem; /* Adjusted for alignment */
 
 }
-.navbar-toggler:focus, 
-.navbar-toggler:active {
-    box-shadow: none; /* Removes border */
-}
+
 .bar1, .bar2, .bar3 {
-    width: 2rem; 
-    height: 0.3rem; 
-    background-color: #333; 
+    width: 2rem;
+    height: 0.3rem;
+    background-color: #333;
     margin: 0.4rem 0; /* Adjusted for same height */
     transition: 0.4s;
 }
@@ -51,6 +57,14 @@
     text-decoration: none;
     transition: 0.3s;
     text-align: left;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    flex-shrink: 1; 
+    max-width: calc(100% - 15rem);
+    margin:0.1rem;
+    /* display:flex; */
+    align-items:center;
 }
 
 .navbar-brand {
@@ -58,19 +72,41 @@
 }
 
 .brand {
-    text-align: right;
-    margin: 0rem;
+    text-align: center;
+    margin-right: 0.5rem;
     font-size: xx-large;
+    /* display: flex;
+    flex-wrap: wrap;*/
+    display:inline-block;
+    max-height: 4rem;
+    white-space: nowrap;
 }
 
 .chasmish {
     color: #439783;
+    margin:0.1rem;
+    white-space: nowrap;
 }
 
 .byasmitha {
     color: #b70d65;
+    margin:0.1rem 0.3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    /* font-size:smaller; */
 }
+/* @media (max-width: 768px) {
+    .byasmitha {
+        display: block; 
+        text-align: center; 
+    }
+} */
 
+/* @media (max-width: 576px) {
+    .byasmitha {
+        display: none; 
+    }
+} */
 @keyframes a-asmi {
     0% {color: #b70d65;}
     50% {color: black;}
@@ -92,10 +128,10 @@
 }
 
 .side-menu {
-    height: calc(100% - 4rem); 
-    padding-top: 4rem; 
+    height: calc(100% - var(--navbarHeight));
+    top: var(--navbarHeight);
     width: 0;
-    position: fixed; 
+    position: fixed;
     left: 0;
     background-color: #f0f0f0; /* Light Pastel Background */
     overflow-x: hidden;
@@ -104,7 +140,7 @@
 }
 
 .side-menu.menu-open {
-    width: 250px;
+    width: 15rem;
 }
 
 .side-menu .navbar-nav {
@@ -121,23 +157,23 @@
 }
 
 .side-menu .nav-item.active {
-    background-color: #b3cde0; /* Soft Blue Highlight */
+    background-color: #9bcff5; /* Soft Blue Highlight */
     color: white; /* White text for contrast */
 }
 
 .side-menu .nav-item.active a {
-    color: #000000; 
-}
-
-.side-menu .nav-item:hover {
-    background-color: #d3e1dc;
-}
-
-.navbar-toggler {
-    border: none;
+    color: #000000;
 }
 
 .nav-link {
     color: #333;
     transition: 0.3s;
 }
+/* Hide or move "by Asmitha" on smaller screens 
+@media (max-width: 500px) {
+    .route {
+        font-size: small; 
+        text-align: left;
+    }
+}
+    */

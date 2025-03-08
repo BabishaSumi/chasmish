@@ -2,6 +2,8 @@
 :root {
     --rainbow-gradient: linear-gradient(in hsl longer hue 45deg, red 0 0);
     --contentColor: black;
+    --navbarHeight: 4rem;
+    --contentBelowNavbarHeight: 4.5rem;
 }
 
 .img-responsive {

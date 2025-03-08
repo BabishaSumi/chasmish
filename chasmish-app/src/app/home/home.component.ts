@@ -21,6 +21,7 @@ export class HomeComponent implements OnInit {
   swiggy = "swiggy";
   ngOnInit(): void {
     this.pages = plainToInstance(Page, this.pagesJson as []);
+    this.pages.sort((a, b) => a.sNo - b.sNo);
     this.pages.forEach(
       p => p.links.forEach(
         l => {
