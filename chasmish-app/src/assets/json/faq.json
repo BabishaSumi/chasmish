@@ -49,7 +49,7 @@
             },
             {
                 "q": "What payment methods do you accept?",
-                "a": "We accept UPI payment. Detailed payment instructions will be provided once you confirm your order."
+                "a": "We accept UPI payment and bank transfer. Detailed payment instructions will be provided once you confirm your order."
             },
             {
                 "q": "Do you offer cash on delivery?",
@@ -96,7 +96,7 @@
         ]
     },
     {
-        "group": "Chasmish Kids Bookshelf",
+        "group": "Chasmish Bookshelves",
         "faqItems": [
             {
                 "q": "Can I get a bookshelf customized to my needs?",

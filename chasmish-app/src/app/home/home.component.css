@@ -1,12 +1,8 @@
-
 .cardcontainer {
     max-width: 40rem;
 }
 
 .page {
-    /* border-image: linear-gradient(#898bfc, #8eebbf) 1 1; */
-    /* background-image: linear-gradient(90deg, #f5e0d7, #ace0f9); */
-    /* background-image: linear-gradient(90deg, #fefefe, #cec6fc); */
     margin-bottom: 0.5rem;
     color: var(--contentColor);
 }
@@ -17,46 +13,42 @@
 }
 
 div.card-body {
-    /* background-image: linear-gradient(90deg, #f7ecde, #e9dac1) !important; */
-    /* background-color: black !important; */
-    /* background-image: linear-gradient( 135deg,  #000000 10%, #000000 100%) !important; */
     border-radius: inherit;
     background-image: linear-gradient(90deg, rgba(225, 238, 188, 0.1), rgba(225, 238, 188, 1));
 }
 
 div.ChasmishBookhounds.card-body {
-    /* background-color: #39ffed; */
     background-image: linear-gradient(90deg, rgba(57, 255, 237, 0.1), rgba(57, 255, 237, 1));
 }
 
 div.ChasmishToys.card-body {
-    /* background-color: #d8ff68; */
     background-image: linear-gradient(90deg, rgba(216, 255, 104, 0.1), rgba(216, 255, 104, 1));
 }
 
 div.ChasmishExclusives.card-body {
-    /* background-color: #b2fdff; */
-    background-image: linear-gradient(90deg, rgba(252,186,206, 0.1), rgba(252, 186, 206, 1));
+    background-image: linear-gradient(90deg, rgba(252, 186, 206, 0.1), rgba(252, 186, 206, 1));
 }
 
 div.ChasmishBlog.card-body {
-    /* background-color: #A45EE9; */
     background-image: linear-gradient(90deg, rgba(164, 94, 233, 0.1), rgba(164, 94, 233, 1));
 }
 
 div.VikatanArticle.card-body {
-    /* background-color: #86a7ce; */
     background-image: linear-gradient(90deg, rgba(134, 167, 206, 0.1), rgba(134, 167, 206, 1));
 }
-div.ChasmishKidsBookshelf.card-body {
+
+div.ChasmishBookshelves.card-body {
     background-image: linear-gradient(90deg, rgba(255, 219, 244, 0.1), rgba(255, 219, 244, 1));
 }
+
 div.ChasmishReads.card-body {
-    background-image: linear-gradient(90deg, rgba(109, 83, 127, 0.1), rgba(109, 83, 127, 1));
+    background-image: linear-gradient(90deg, rgba(122, 88, 150, 0.1), rgba(122, 88, 150, 1));
 }
+
 div.ChasmishTalks.card-body {
     background-image: linear-gradient(90deg, rgba(145, 202, 210, 0.1), rgba(145, 202, 210, 1));
 }
+
 .pageBody {
     padding: 0.5rem;
     display: flex;
@@ -69,28 +61,19 @@ div.ChasmishTalks.card-body {
 }
 
 .pagePhoto {
-    /* width: 5rem; */
-    /* height: 5rem; */
     height: 100%;
     border-radius: 50%;
 }
 
-
 .pageTitle {
-    /* color: #012a3a; */
     margin-bottom: 0rem;
 }
 
 .pageTagLine {
-    /* color: #217ce4; */
     font-size: small;
     margin-top: 0rem;
     margin-bottom: 0rem;
 }
-
-/* .pageIcon {
-    height: fit-content;
-} */
 
 .iconGap {
     margin-right: 0.5rem;
@@ -110,13 +93,8 @@ a.aicon:active {
 
 a.aicon {
     text-decoration: none;
-    /* color: #00296b; */
     color: var(--contentColor);
 }
-
-/* .svgIconColor { 
-    filter: invert(10%) sepia(68%) saturate(3914%) hue-rotate(212deg) brightness(94%) contrast(101%);
-}  */
 
 .svgIconColor:hover,
 .svgIconColor:focus,

@@ -63,10 +63,10 @@
     },
     {
         "sNo": 3,
-        "uid": "ChasmishKidsBookshelf",
-        "photo": "ChasmishKidsBookshelf.png",
-        "page": "Chasmish Kids Bookshelf",
-        "tagLine": "Kids' bookshelves",
+        "uid": "ChasmishBookshelves",
+        "photo": "ChasmishBookshelves.png",
+        "page": "Chasmish Bookshelves",
+        "tagLine": "Bookshelves",
         "links": [
             {
                 "id": 1,
