@@ -1,5 +1,6 @@
 <nav class="navbar rainbowBottomBorder">
   <div class="container-fluid">
+    <!-- Left: Menu Icon -->
     <span class="menu-container">
       <button class="navbar-toggler" type="button" aria-label="Toggle navigation" (click)="toggleMenu()">
         <div class="menu-icon">
@@ -8,12 +9,19 @@
           <div class="bar3" [class.menuchange]="isMenuOpen"></div>
         </div>
       </button>
-      <span class="route">{{currentRouteLabel}}</span>
+      <!-- <span class="route">{{currentRouteLabel}}</span> -->
     </span>
-    <a class="navbar-brand brand" [routerLink]="['/home']">
-      <span class="antic-bold chasmish"> Ch<span class="c-asmi">asmi</span>sh </span>
-      <span class="lh-1 qwitcher-grypen-bold byasmitha"> by <span class="a-asmi">Asmi</span>tha</span>
-    </a>
+    <!-- Center: Route Name -->
+    <span class="route">
+      <!-- <i class="fa-solid fa-glasses routeIcon"></i> -->
+      <!-- <img class="" src="../../assets/img/ChasmishByAsmitha.svg" alt="Route Icon" style="height: 2rem; margin-right: 0.5rem;"> Added icon for route -->
+      {{ currentRouteLabel }}
+    </span>
+    <!-- Right: Brand -->
+    <span class="navbar-brand brand">
+      <a class="antic-bold chasmish" href="/about#about-chasmish">Ch<span class="c-asmi">asmi</span>sh</a>
+      <a class="lh-1 qwitcher-grypen-bold byasmitha" href="/about#about-asmitha"> by <span class="a-asmi">Asmi</span>tha</a>
+    </span>
   </div>
 </nav>
 <div class="side-menu" [class.menu-open]="isMenuOpen">
