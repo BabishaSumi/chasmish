@@ -1,15 +1,14 @@
 .navbar {
-    z-index: 1001; /* Higher z-index for navbar */
+    z-index: 1001; 
     width: 100%;
     top: 0;
     height: var(--navbarHeight);
     justify-content: space-between;
-    display: flex; /* Center content vertically */
-    align-items: center; /* Center content vertically */
-    position: fixed; /* Keep navbar fixed at the top */
-    background-color: #f8f9fa; /* Background color */
-    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
-    overflow: hidden; /* Prevent content spill */
+    display: flex; 
+    align-items: center; 
+    position: fixed; 
+    background-color: #f8f9fa; 
+    overflow: hidden; 
 }
 .navbar-toggler
 {
@@ -19,16 +18,13 @@
 }
 .menu-container
 {
-    /* display: inline-block; */
-    display: flex; /* Center content vertically */
-    align-items: center; /* Center content vertically */
+    display: flex; 
+    align-items: center; 
 }
-
 .menu-icon {
     display: inline-block;
     cursor: pointer;
     margin: 0 1 rem;
-     /* 0.1rem; Adjusted for alignment */
 
 }
 
@@ -36,12 +32,12 @@
     width: 2rem;
     height: 0.3rem;
     background-color: #333;
-    margin: 0.4rem 0; /* Adjusted for same height */
+    margin: 0.4rem 0; 
     transition: 0.4s;
 }
 
 .menuchange.bar1 {
-    transform: translate(0, 0.7rem) rotate(-45deg); /* Adjusted transform for same height */
+    transform: translate(0, 0.7rem) rotate(-45deg);
 }
 
 .menuchange.bar2 {
@@ -49,7 +45,7 @@
 }
 
 .menuchange.bar3 {
-    transform: translate(0, -0.7rem) rotate(45deg); /* Adjusted transform for same height */
+    transform: translate(0, -0.7rem) rotate(45deg); 
 }
 
 .route {
@@ -64,10 +60,6 @@
     overflow: hidden;
     flex:1;
     justify-content: center;
-    /* flex-shrink: 1; 
-    max-width: calc(100% - 15rem);
-    margin:0.1rem; */
-    /* display:flex; */
     align-items:center;
 }
 
@@ -79,14 +71,11 @@
     text-align: center;
     margin-right: 0.5rem;
     font-size: xx-large;
-    /* font-size: 3rem; */
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    /*flex-wrap: wrap;*/
     display:inline-block;
-    /* max-height: 4rem; */
     line-height: 1.2;
     white-space: nowrap;
 }
@@ -106,20 +95,8 @@
     overflow: hidden;
     text-decoration-line: none;
     font-size: x-large;
-    /* font-size:smaller; */
 }
-/* @media (max-width: 768px) {
-    .byasmitha {
-        display: block; 
-        text-align: center; 
-    }
-} */
 
-/* @media (max-width: 576px) {
-    .byasmitha {
-        display: none; 
-    }
-} */
 @keyframes a-asmi {
     0% {color: #b70d65;}
     50% {color: black;}
@@ -146,10 +123,10 @@
     width: 0;
     position: fixed;
     left: 0;
-    background-color: #f0f0f0; /* Light Pastel Background */
+    background-color: #f0f0f0; 
     overflow-x: hidden;
     transition: 0.5s;
-    z-index: 1000; /* Lower z-index than navbar */
+    z-index: 1000; 
 }
 
 .side-menu.menu-open {
@@ -170,8 +147,8 @@
 }
 
 .side-menu .nav-item.active {
-    background-color: #9bcff5; /* Soft Blue Highlight */
-    color: white; /* White text for contrast */
+    background-color: #9bcff5; 
+    color: white; 
 }
 
 .side-menu .nav-item.active a {
@@ -182,11 +159,3 @@
     color: #333;
     transition: 0.3s;
 }
-/* Hide or move "by Asmitha" on smaller screens 
-@media (max-width: 500px) {
-    .route {
-        font-size: small; 
-        text-align: left;
-    }
-}
-    */
