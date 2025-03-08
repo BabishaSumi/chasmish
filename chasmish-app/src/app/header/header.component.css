@@ -1,14 +1,100 @@
+.navbar {
+    z-index: 1001; 
+    width: 100%;
+    top: 0;
+    height: var(--navbarHeight);
+    justify-content: space-between;
+    display: flex; 
+    align-items: center; 
+    position: fixed; 
+    background-color: #f8f9fa; 
+    overflow: hidden; 
+}
+.navbar-toggler
+{
+    padding: 0.1rem;
+    box-shadow: none;
+    border: none;
+}
+.menu-container
+{
+    display: flex; 
+    align-items: center; 
+}
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 1 rem;
+
+}
+
+.bar1, .bar2, .bar3 {
+    width: 2rem;
+    height: 0.3rem;
+    background-color: #333;
+    margin: 0.4rem 0; 
+    transition: 0.4s;
+}
+
+.menuchange.bar1 {
+    transform: translate(0, 0.7rem) rotate(-45deg);
+}
+
+.menuchange.bar2 {
+    opacity: 0;
+}
+
+.menuchange.bar3 {
+    transform: translate(0, -0.7rem) rotate(45deg); 
+}
+
+.route {
+    color: #030e33;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: center;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    flex:1;
+    justify-content: center;
+    align-items:center;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.brand {
+    text-align: center;
+    margin-right: 0.5rem;
+    font-size: xx-large;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    display:inline-block;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
 .chasmish {
     color: #439783;
+    margin:0.1rem;
+    white-space: nowrap;
+    text-decoration-line: none;
+    font-size:xx-large;
 }
 
 .byasmitha {
     color: #b70d65;
-}
-
-.brand {
-    margin: 0rem;
-    font-size: xx-large;
+    margin:0.1rem 0.3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration-line: none;
+    font-size: x-large;
 }
 
 @keyframes a-asmi {
@@ -17,14 +103,59 @@
     100% {color: #b70d65;}
 }
 
-.a-asmi{
+.a-asmi {
     animation: a-asmi 10s infinite;
 }
+
 @keyframes c-asmi {
     0% {color: #439783;}
     50% {color: black;}
     100% {color: #439783;}
-  }
-.c-asmi{
+}
+
+.c-asmi {
     animation: c-asmi 10s infinite;
+}
+
+.side-menu {
+    height: calc(100% - var(--navbarHeight));
+    top: var(--navbarHeight);
+    width: 0;
+    position: fixed;
+    left: 0;
+    background-color: #f0f0f0; 
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1000; 
+}
+
+.side-menu.menu-open {
+    width: 15rem;
+}
+
+.side-menu .navbar-nav {
+    padding: 0;
+}
+
+.side-menu .nav-item {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-menu .nav-item.active {
+    background-color: #9bcff5; 
+    color: white; 
+}
+
+.side-menu .nav-item.active a {
+    color: #000000;
+}
+
+.nav-link {
+    color: #333;
+    transition: 0.3s;
 }

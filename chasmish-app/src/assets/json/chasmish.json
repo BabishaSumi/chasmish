@@ -43,10 +43,62 @@
         ]
     },
     {
+        "sNo": 4,
+        "uid": "ChasmishReads",
+        "photo": "ChasmishReads.png",
+        "page": "Chasmish Reads",
+        "tagLine": "Novels & Books for all ages",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://chat.whatsapp.com/GKiacvXVlHl4cW14Ilxe40 ",
+                "type": "whatsapp"
+            },
+            {
+                "id":2,
+                "url":"https://www.instagram.com/chasmish_reads",
+                "type": "instagram"
+            }
+        ]
+    },
+    {
         "sNo": 3,
-        "uid": "ChasmishShop",
-        "photo": "ChasmishShopCropped.jpg",
-        "page": "Chasmish Shop",
+        "uid": "ChasmishBookshelves",
+        "photo": "ChasmishBookshelves.png",
+        "page": "Chasmish Bookshelves",
+        "tagLine": "Bookshelves",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://chat.whatsapp.com/DoxgFuz6K5d8Nj72ByUR0o",
+                "type": "whatsapp"
+            }
+        ]
+    },
+    {
+        "sNo": 5,
+        "uid": "ChasmishTalks",
+        "photo": "ChasmishTalks.png",
+        "page": "Chasmish Talks",
+        "tagLine": "Videos for Kids' books' read aloud | podcasts | book reviews | Chasmish exclusives",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.youtube.com/@chasmish_talks",
+                "type": "youtube"
+            },
+            {
+                "id": 2,
+                "url": "https://open.spotify.com/show/6lDIt4kGf17Z2I4XpiOti4?si=afb9e410e5894230",
+                "type": "spotify"
+            }
+        ]
+    },
+    {
+        "sNo": 6,
+        "uid": "ChasmishExclusives",
+        "photo": "ChasmishExclusives.png",
+        "page": "Chasmish Exclusives",
         "tagLine": "A Papyrophyliac's shop | Book Journals, Bookmarks, Calendar & more",
         "links": [
             {
@@ -82,7 +134,7 @@
         ]
     },
     {
-        "sNo": 4,
+        "sNo": 7,
         "uid": "ChasmishBlog",
         "photo": "ChasmishBlog.jpg",
         "page": "Chasmish Blog",
@@ -111,7 +163,7 @@
         ]
     },
     {
-        "sNo": 5,
+        "sNo": 8,
         "uid": "VikatanArticle",
         "photo": "VikatanArticleWeb.png",
         "page": "Vikatan article",

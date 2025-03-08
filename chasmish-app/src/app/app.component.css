@@ -1,0 +1,4 @@
+
+.main-content {
+    margin-top: var(--contentBelowNavbarHeight); /* Push content below the fixed navbar */
+}

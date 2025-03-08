@@ -1,0 +1,137 @@
+[
+    {
+        "group": "General FAQ",
+        "faqItems": [
+            {
+                "q": "Where are you based?",
+                "a": "We are based in Chennai, Tamil Nadu, India."
+            },
+            {
+                "q": "Are you available on WhatsApp for inquiries or orders?",
+                "a": "Yes, we are available on WhatsApp for customer inquiries and orders."
+            },
+            {
+                "q": "Can I inquire about books or products not listed?",
+                "a": "Absolutely! Please reach out to us through WhatsApp, and we will do our best to procure them for you."
+            },
+            {
+                "q": "Do you accept bulk or return gift orders?",
+                "a": "Yes, we do! Please share your requirements and budget, and we will confirm if it is feasible."
+            }
+        ]
+    },
+    {
+        "group": "Order, Shipping & Return Policy",
+        "faqItems": [
+            {
+                "q": "How can I place an order?",
+                "a": "You can place an order by sending us a direct message on Instagram or WhatsApp. Please include the product name and quantity."
+            },
+            {
+                "q": "Which locations do you deliver to?",
+                "a": "As of now, we deliver across India. If you are looking for overseas delivery, please contact us to check feasibility."
+            },
+            {
+                "q": "What shipping methods do you use?",
+                "a": "We primarily ship via India Post or other trusted courier services."
+            },
+            {
+                "q": "How long does shipping take?",
+                "a": "Shipping typically takes 3-7 business days, depending on your location. For expedited shipping, please contact us to check feasibility."
+            },
+            {
+                "q": "Will I receive a tracking ID for my order?",
+                "a": "Yes, once your order is dispatched, you will receive a tracking ID to monitor your delivery status."
+            },
+            {
+                "q": "What are the shipping costs?",
+                "a": "Shipping costs depend on the size, weight, location, and the shipping method chosen for your order."
+            },
+            {
+                "q": "What payment methods do you accept?",
+                "a": "We accept UPI payment and bank transfer. Detailed payment instructions will be provided once you confirm your order."
+            },
+            {
+                "q": "Do you offer cash on delivery?",
+                "a": "No, we do not offer cash on delivery. Please choose from the other available payment methods."
+            },
+            {
+                "q": "What is your return policy?",
+                "a": "We do not accept returns. Please ensure you review the product videos we send before confirming your order."
+            }
+        ]
+    },
+    {
+        "group": "Chasmish Bookhounds",
+        "faqItems": [
+            {
+                "q": "What age groups are your kids' books suitable for?",
+                "a": "Our collection caters to all age groups, from toddlers to young adults. Feel free to reach out for specific recommendations."
+            },
+            {
+                "q": "Are your books educational?",
+                "a": "Yes, we offer both educational and recreational books to suit a wide range of interests and learning needs."
+            },
+            {
+                "q": "Do you provide preloved and new books?",
+                "a": "Yes, we offer both preloved and new books. Please check the book details before placing your order."
+            },
+            {
+                "q": "Do you offer books for adults?",
+                "a": "Yes, we do! Please visit our Chasmish Reads section for more."
+            }
+        ]
+    },
+    {
+        "group": "Chasmish Toys",
+        "faqItems": [
+            {
+                "q": "What types of toys do you offer?",
+                "a": "We offer a variety of toys, including educational toys, puzzles, board games, Rubik's cubes, and more."
+            },
+            {
+                "q": "What educational toys do you provide?",
+                "a": "Our range includes puzzles, building blocks, science kits, and interactive learning games."
+            }
+        ]
+    },
+    {
+        "group": "Chasmish Bookshelves",
+        "faqItems": [
+            {
+                "q": "Can I get a bookshelf customized to my needs?",
+                "a": "Yes, we offer custom wooden bookshelves tailored to your specifications."
+            },
+            {
+                "q": "Do you provide bookshelves made from materials other than wood?",
+                "a": "Yes, we also offer plastic bookshelves. Let us know your requirements, and we’ll arrange something suitable."
+            }
+        ]
+    },
+    {
+        "group": "Chasmish Reads",
+        "faqItems": [
+            {
+                "q": "What genres of novels do you offer?",
+                "a": "We provide a wide selection of genres, including fiction, non-fiction, mystery, romance, fantasy, and more."
+            },
+            {
+                "q": "Do you offer book recommendations?",
+                "a": "Yes, we’d be happy to suggest books based on your preferences!"
+            }
+        ]
+    },
+    {
+        "group": "Chasmish Exclusives",
+        "faqItems": [
+            {
+                "q": "What stationery products do you offer under your brand?",
+                "a": "We design and sell custom stationery, including journals, notebooks, planners, calendars, and bookmarks."
+            },
+            {
+                "q": "Do you offer personalized stationery?",
+                "a": "Currently, we do not provide personalization options."
+            }
+        ]
+    }
+]

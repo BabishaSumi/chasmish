@@ -23,7 +23,7 @@ export class Link {
       case "whatsapp": this.linkIcon = faWhatsapp; break;
       case "pinterest": this.linkIcon = faPinterest; break;
       case "email": this.linkIcon = faEnvelope; break;
-      case "swiggy": this.linkIcon = faShop; break; 
+      case "swiggy": this.linkIcon = faShop; break; // overwritten later
       case "spotify": this.linkIcon = faSpotify; break;
       case "blogger": this.linkIcon = faBlogger; break;
       case "newspaper": this.linkIcon = faNewspaper; break;
@@ -34,8 +34,10 @@ export class Link {
 }
 export class Page {
   sNo: number; uid: string; photo: string; page: string; tagLine: string;
+
   @Type(() => Link)
   links: Link[];
+  
   constructor(sNo: number, uid: string, photo: string, page: string, tagLine: string, links: Link[]) {
     this.sNo = sNo;
     this.uid = uid;
