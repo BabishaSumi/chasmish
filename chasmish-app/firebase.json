@@ -1,0 +1,40 @@
+{
+  "hosting": [
+    {
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "target": "staging",
+      "public": "dist/chasmish-app-staging/browser",
+      "frameworksBackend": {
+        "region": "asia-east1"
+      },
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "target": "cba",
+      "public": "dist/chasmish-app/browser",
+      "frameworksBackend": {
+        "region": "asia-east1"
+      },
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

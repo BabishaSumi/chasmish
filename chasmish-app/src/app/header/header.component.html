@@ -1,0 +1,32 @@
+<nav class="navbar rainbowBottomBorder">
+  <div class="container-fluid">
+    <!-- Left: Menu Icon -->
+    <span class="menu-container">
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation" (click)="toggleMenu()">
+        <div class="menu-icon">
+          <div class="bar1" [class.menuchange]="isMenuOpen"></div>
+          <div class="bar2" [class.menuchange]="isMenuOpen"></div>
+          <div class="bar3" [class.menuchange]="isMenuOpen"></div>
+        </div>
+      </button>
+    </span>
+    <!-- Center: Route Name -->
+    <span class="route">
+      {{ currentRouteLabel }}
+    </span>
+    <!-- Right: Brand -->
+    <span class="navbar-brand brand">
+      <a class="antic-bold chasmish" href="/about#about-chasmish">Ch<span class="c-asmi">asmi</span>sh</a>
+      <a class="lh-1 qwitcher-grypen-bold byasmitha" href="/about#about-asmitha"> by <span class="a-asmi">Asmi</span>tha</a>
+    </span>
+  </div>
+</nav>
+<div class="side-menu" [class.menu-open]="isMenuOpen">
+  <ul class="navbar-nav me-auto flex-column">
+    <li class="nav-item" *ngFor="let route of routes" [ngClass]="{ 'active': currentRoute === route.path }">
+      <a class="nav-link" [routerLink]="[route.path]" (click)="isMenuOpen = false">
+        {{ route.label }}
+      </a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,103 @@
+.cardcontainer {
+    max-width: 40rem;
+}
+
+.page {
+    margin-bottom: 0.5rem;
+    color: var(--contentColor);
+}
+
+.pagePhotoDiv {
+    width: 5rem;
+    height: 5rem;
+}
+
+div.card-body {
+    border-radius: inherit;
+    background-image: linear-gradient(90deg, rgba(225, 238, 188, 0.1), rgba(225, 238, 188, 1));
+}
+
+div.ChasmishBookhounds.card-body {
+    background-image: linear-gradient(90deg, rgba(57, 255, 237, 0.1), rgba(57, 255, 237, 1));
+}
+
+div.ChasmishToys.card-body {
+    background-image: linear-gradient(90deg, rgba(216, 255, 104, 0.1), rgba(216, 255, 104, 1));
+}
+
+div.ChasmishExclusives.card-body {
+    background-image: linear-gradient(90deg, rgba(252, 186, 206, 0.1), rgba(252, 186, 206, 1));
+}
+
+div.ChasmishBlog.card-body {
+    background-image: linear-gradient(90deg, rgba(164, 94, 233, 0.1), rgba(164, 94, 233, 1));
+}
+
+div.VikatanArticle.card-body {
+    background-image: linear-gradient(90deg, rgba(134, 167, 206, 0.1), rgba(134, 167, 206, 1));
+}
+
+div.ChasmishBookshelves.card-body {
+    background-image: linear-gradient(90deg, rgba(255, 219, 244, 0.1), rgba(255, 219, 244, 1));
+}
+
+div.ChasmishReads.card-body {
+    background-image: linear-gradient(90deg, rgba(122, 88, 150, 0.1), rgba(122, 88, 150, 1));
+}
+
+div.ChasmishTalks.card-body {
+    background-image: linear-gradient(90deg, rgba(145, 202, 210, 0.1), rgba(145, 202, 210, 1));
+}
+
+.pageBody {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.pageContentDiv {
+    width: 75%;
+}
+
+.pagePhoto {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.pageTitle {
+    margin-bottom: 0rem;
+}
+
+.pageTagLine {
+    font-size: small;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.iconGap {
+    margin-right: 0.5rem;
+}
+
+.linkIcon {
+    height: 2rem;
+    vertical-align: text-bottom;
+}
+
+a.aicon:hover,
+a.aicon:focus,
+a.aicon:active {
+    text-decoration: none;
+    color: #3c096c;
+}
+
+a.aicon {
+    text-decoration: none;
+    color: var(--contentColor);
+}
+
+.svgIconColor:hover,
+.svgIconColor:focus,
+.svgIconColor:active {
+    filter: invert(8%) sepia(63%) saturate(6891%) hue-rotate(272deg) brightness(75%) contrast(103%);
+}

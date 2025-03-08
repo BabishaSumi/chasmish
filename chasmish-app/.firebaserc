@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "default": "chasmish-app"
+  },
+  "targets": {
+    "chasmish-app": {
+      "hosting": {
+        "cba": [
+          "chasmish-by-asmitha"
+        ],
+        "staging": [
+          "chasmish-app"
+        ],
+        "app": [
+          "cba",
+          "staging"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

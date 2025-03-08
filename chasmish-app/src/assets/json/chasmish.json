@@ -1,0 +1,180 @@
+[
+    {
+        "sNo": 1,
+        "uid": "ChasmishBookhounds",
+        "photo": "ChasmishBookhounds.jpg",
+        "page": "Chasmish Bookhounds",
+        "tagLine": "Kids' new & preloved books",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.instagram.com/chasmish_bookhounds",
+                "type": "instagram"
+            },
+            {
+                "id": 2,
+                "url": "https://chat.whatsapp.com/D9gHbWPLwflFEkRpoOAMmR",
+                "type": "whatsapp"
+            },
+            {
+                "id": 3,
+                "url": "https://www.youtube.com/@Chasmish_Talks",
+                "type": "youtube"
+            }
+        ]
+    },
+    {
+        "sNo": 2,
+        "uid": "ChasmishToys",
+        "photo": "ChasmishToys.jpg",
+        "page": "Chasmish Toys",
+        "tagLine": "Kids' new toys",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.instagram.com/chasmish_toys",
+                "type": "instagram"
+            },
+            {
+                "id": 2,
+                "url": "https://chat.whatsapp.com/ItfaPBJA6ea0nINGsOWX5V",
+                "type": "whatsapp"
+            }
+        ]
+    },
+    {
+        "sNo": 4,
+        "uid": "ChasmishReads",
+        "photo": "ChasmishReads.png",
+        "page": "Chasmish Reads",
+        "tagLine": "Novels & Books for all ages",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://chat.whatsapp.com/GKiacvXVlHl4cW14Ilxe40 ",
+                "type": "whatsapp"
+            },
+            {
+                "id":2,
+                "url":"https://www.instagram.com/chasmish_reads",
+                "type": "instagram"
+            }
+        ]
+    },
+    {
+        "sNo": 3,
+        "uid": "ChasmishBookshelves",
+        "photo": "ChasmishBookshelves.png",
+        "page": "Chasmish Bookshelves",
+        "tagLine": "Bookshelves",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://chat.whatsapp.com/DoxgFuz6K5d8Nj72ByUR0o",
+                "type": "whatsapp"
+            }
+        ]
+    },
+    {
+        "sNo": 5,
+        "uid": "ChasmishTalks",
+        "photo": "ChasmishTalks.png",
+        "page": "Chasmish Talks",
+        "tagLine": "Videos for Kids' books' read aloud | podcasts | book reviews | Chasmish exclusives",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.youtube.com/@chasmish_talks",
+                "type": "youtube"
+            },
+            {
+                "id": 2,
+                "url": "https://open.spotify.com/show/6lDIt4kGf17Z2I4XpiOti4?si=afb9e410e5894230",
+                "type": "spotify"
+            }
+        ]
+    },
+    {
+        "sNo": 6,
+        "uid": "ChasmishExclusives",
+        "photo": "ChasmishExclusives.png",
+        "page": "Chasmish Exclusives",
+        "tagLine": "A Papyrophyliac's shop | Book Journals, Bookmarks, Calendar & more",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.instagram.com/chasmish_shop",
+                "type": "instagram"
+            },
+            {
+                "id": 2,
+                "url": "https://wa.me/916379966886",
+                "type": "whatsapp"
+            },
+            {
+                "id": 3,
+                "url": "https://www.amazon.in/s?me=A1SUFB3CMHEV5B&ref=sf_seller_app_share_new",
+                "type": "amazon"
+            },
+            {
+                "id": 4,
+                "url": "https://chasmish.mini.store",
+                "type": "swiggy"
+            },
+            {
+                "id": 5,
+                "url": "https://www.youtube.com/@Chasmish_Talks",
+                "type": "youtube"
+            },
+            {
+                "id": 6,
+                "url": "https://in.pinterest.com/ChasmishShop/?invite_code=4827a0f571114c9eb787c9a99650efcf&sender=1045116794685223166",
+                "type": "pinterest"
+            }
+        ]
+    },
+    {
+        "sNo": 7,
+        "uid": "ChasmishBlog",
+        "photo": "ChasmishBlog.jpg",
+        "page": "Chasmish Blog",
+        "tagLine": "Tamil poems | Tamil & English book reviews | Podcasts | & more",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.instagram.com/chasmishblog",
+                "type": "instagram"
+            },
+            {
+                "id": 2,
+                "url": "https://chasmishwrites.blogspot.com/",
+                "type": "blogger"
+            },
+            {
+                "id": 3,
+                "url": "https://podcasters.spotify.com/pod/show/chasmishtalks",
+                "type": "spotify"
+            },
+            {
+                "id": 4,
+                "url": "mailto:chasmishblog@gmail.com",
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "sNo": 8,
+        "uid": "VikatanArticle",
+        "photo": "VikatanArticleWeb.png",
+        "page": "Vikatan article",
+        "tagLine": "",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.vikatan.com/business/startups/online-business-entrepreneur-asmitha-shares-about-her-book-journal-brand",
+                "type": "newspaper",
+                "iconClass": ""
+            }
+        ]
+    }
+]

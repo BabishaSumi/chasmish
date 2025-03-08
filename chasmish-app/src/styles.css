@@ -1,0 +1,84 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --rainbow-gradient: linear-gradient(in hsl longer hue 45deg, red 0 0);
+    --contentColor: black;
+    --navbarHeight: 4rem;
+    --contentBelowNavbarHeight: 4.5rem;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.antic-regular {
+    font-family: "Antic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.antic-bold {
+    font-family: "Antic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.qwitcher-grypen-regular {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.qwitcher-grypen-bold {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.k2d-regular {
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+.rancho-regular {
+    font-family: "Rancho", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
+}
+
+.rainbowBottomBorder {
+    border-bottom: 1px;
+    border-bottom-width: 100%;
+    border-bottom-style: solid;
+    border-image: var(--rainbow-gradient) 1;
+}
+
+.tdivider {
+    margin-block: 1.5rem;
+}
+
+.rainbowDivider {
+    background: var(--rainbow-gradient);
+    height: 1px;
+    width: 100%;
+    margin-block: 1.5rem;
+}
+
+.noWordWrap {
+    display: inline-block;
+}
