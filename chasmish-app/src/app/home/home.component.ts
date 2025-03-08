@@ -8,11 +8,10 @@ import 'reflect-metadata';
 import pagesData from '../../assets/json/chasmish.json';
 import { Page } from './pages.model';
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [NgFor, NgIf, FontAwesomeModule],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+    selector: 'app-home',
+    imports: [NgFor, NgIf, FontAwesomeModule],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css'
 })
 
 export class HomeComponent implements OnInit {

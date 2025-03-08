@@ -14,13 +14,12 @@ interface FAQGroup {
   active?: boolean;
 }
 @Component({
-  standalone: true,
-  selector: 'app-faq',
-  templateUrl: './faq.component.html',
-  styleUrls: ['./faq.component.css'],
-  imports: [
-    CommonModule 
-  ],
+    selector: 'app-faq',
+    templateUrl: './faq.component.html',
+    styleUrls: ['./faq.component.css'],
+    imports: [
+        CommonModule
+    ]
 })
 export class FAQComponent implements OnInit {
   faqGroups: FAQGroup[] = [];
