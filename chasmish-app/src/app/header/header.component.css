@@ -66,6 +66,10 @@
 .navbar-brand {
     padding: 0;
 }
+.brandLogo{
+    height: var(--navbarHeight);
+    vertical-align: middle;
+}
 
 .brand {
     text-align: center;

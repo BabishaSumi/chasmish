@@ -16,7 +16,22 @@ div.card-body {
     border-radius: inherit;
     background-image: linear-gradient(90deg, rgba(225, 238, 188, 0.1), rgba(225, 238, 188, 1));
 }
+div.ChasmishShop.card-body {
+    background-image: linear-gradient(30deg, rgba(255,98,172,1),rgba(255,255,255,1), rgba(6,214,160,1));
+    /* transform: translateY(-6px) scale(1.02); */
+    /* box-shadow: 0 18px 40px rgba(6,214,160,0.20); */
+    border: 2px solid rgba(0,0,0,0.25);
+}
+div.ChasmishShop.card-body::after {
+    opacity: 1;
+    animation: pulseGlow 2.4s infinite;
+}
 
+@keyframes pulseGlow {
+    0%   { box-shadow: 0 0 0 0 rgba(6,214,160,0.18); }
+    50%  { box-shadow: 0 0 24px 8px rgba(6,214,160,0.08); }
+    100% { box-shadow: 0 0 0 0 rgba(6,214,160,0.00); }
+}
 div.ChasmishBookhounds.card-body {
     background-image: linear-gradient(90deg, rgba(57, 255, 237, 0.1), rgba(57, 255, 237, 1));
 }
