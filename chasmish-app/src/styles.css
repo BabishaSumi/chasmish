@@ -1,9 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --rainbow-gradient: linear-gradient(in hsl longer hue 45deg, red 0 0);
+    --rainbow-gradient: linear-gradient(in hsl longer hue 45deg, #06D6A0 0 0);
     --contentColor: black;
     --navbarHeight: 4rem;
-    --contentBelowNavbarHeight: 4.5rem;
+    --contentBelowNavbarHeight: 5rem;
 }
 
 .img-responsive {

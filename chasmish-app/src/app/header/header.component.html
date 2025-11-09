@@ -1,7 +1,8 @@
-<nav class="navbar rainbowBottomBorder">
+<!-- <nav class="navbar rainbowBottomBorder"> -->
+  <nav class="navbar rainbowBottomBorder ">
   <div class="container-fluid">
     <!-- Left: Menu Icon -->
-    <span class="menu-container">
+    <!-- <span class="menu-container">
       <button class="navbar-toggler" type="button" aria-label="Toggle navigation" (click)="toggleMenu()">
         <div class="menu-icon">
           <div class="bar1" [class.menuchange]="isMenuOpen"></div>
@@ -9,15 +10,23 @@
           <div class="bar3" [class.menuchange]="isMenuOpen"></div>
         </div>
       </button>
+    </span> -->
+    <span>
+      <a href="https://chasmish.in" class="brandLink" target="_blank" rel="noopener noreferrer" aria-label="Visit Chasmish website">
+        <img class="brandLogoSpecs" src="assets/img/ChasmishSpecs1x1Black.png" alt="Chasmish Specs Logo">
+      </a>
     </span>
     <!-- Center: Route Name -->
     <span class="route">
       {{ currentRouteLabel }}
     </span>
     <!-- Right: Brand -->
-    <span class="navbar-brand brand">
-      <a class="antic-bold chasmish" href="/about#about-chasmish">Ch<span class="c-asmi">asmi</span>sh</a>
-      <a class="lh-1 qwitcher-grypen-bold byasmitha" href="/about#about-asmitha"> by <span class="a-asmi">Asmi</span>tha</a>
+    <span class="navbar-brand brand" href="https://chasmish.in">
+      <a href="https://chasmish.in" class="brandLink" target="_blank" rel="noopener noreferrer" aria-label="Visit Chasmish website">
+        <img class="brandLogoChasmish" src="assets/img/Chasmish400x80Black.png" alt="Chasmish Brand Logo"/>
+      </a>
+      <!-- <a class="antic-bold chasmish" href="/about#about-chasmish">Ch<span class="c-asmi">asmi</span>sh</a>
+      <a class="lh-1 qwitcher-grypen-bold byasmitha" href="/about#about-asmitha"> by <span class="a-asmi">Asmi</span>tha</a> -->
     </span>
   </div>
 </nav>

@@ -1,4 +1,9 @@
 <div class="faq-container">
+  <div class="faq-items">
+    <h2>Website FAQ</h2>
+    <p>Visit the <a rel="noopener" href="https://chasmish.in/faq">website FAQ page</a> for latest FAQs.
+       The below details are deprecated. </p>
+  </div>
   <div *ngFor="let group of faqGroups" class="faq-group">
     <div class="faq-group-title" (click)="toggleAccordion(group)">
       <h2>{{ group.group }}</h2>
