@@ -16,36 +16,38 @@
     box-sizing:content-box;
     padding:0px;
 }
+
 .navbar .container-fluid {
     display: flex;
     align-items: center;
     height: 100%;
-    padding: 0;               /* remove vertical padding that can increase height */
-    margin: 0;
-    /* gap: 0.5rem; */
 }
 /* constrain logos so they never exceed navbar */
 .brandLogo{
     height: var(--navbarHeight);
     vertical-align: middle;
+    display: block;
 } 
+
 .brandLogoSpecs,
 .brandLogoChasmish
 {
-    display: inline-block;
-/* small breathing room */
     height: auto;
     width: auto;
     vertical-align: middle;
 }
+
 .brandLogoChasmish{
-    max-height: calc(var(--navbarHeight) - 1.5rem);
+    max-height: calc(var(--navbarHeight) - 1rem);
+    margin-right: 1rem;
 }
+
 .brandLogoSpecs{
     max-height: calc(var(--navbarHeight)); 
     margin-left:1rem;
     margin-right:1rem;
 }
+
 .brandLink {
   all: unset;                    /* remove inherited anchor styles */
   display: inline-flex;
@@ -56,6 +58,7 @@
   text-decoration: none;
   /* preserve accessible name/keyboard focus */
   -webkit-tap-highlight-color: transparent;
+  background-color: #000;   
 }
 .navbar-toggler
 {
@@ -118,12 +121,11 @@
     height: var(--navbarHeight);
     vertical-align: middle;
 } */
-
+/* 
 .brand {
     text-align: center;
     margin-right: 0.5rem;
     font-size: xx-large;
-    /* display: flex; */
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
@@ -167,7 +169,7 @@
 
 .c-asmi {
     animation: c-asmi 10s infinite;
-}
+} */
 
 .side-menu {
     height: calc(100% - var(--navbarHeight));
