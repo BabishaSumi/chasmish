@@ -1,6 +1,30 @@
 [
     {
         "sNo": 1,
+        "uid": "ChasmishShop",
+        "photo": "ChasmishLogoBigSpecs.svg",
+        "page": "CHASMISH.in",
+        "tagLine": "Shopping website for all Chasmish products",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://chasmish.in",
+                "type": "cartShopping"
+            },
+            {
+                "id": 1,
+                "url": "https://chasmish.in/about-us/",
+                "type": "infoCircle"
+            },
+            {
+                "id": 1,
+                "url": "https://chasmish.in/faq/",
+                "type": "questionCircle"
+            }
+        ]
+    },
+    {
+        "sNo": 1,
         "uid": "ChasmishBookhounds",
         "photo": "ChasmishBookhounds.jpg",
         "page": "Chasmish Bookhounds",
@@ -97,6 +121,7 @@
     {
         "sNo": 6,
         "uid": "ChasmishExclusives",
+        "icon":"",
         "photo": "ChasmishExclusives.png",
         "page": "Chasmish Exclusives",
         "tagLine": "A Papyrophyliac's shop | Book Journals, Bookmarks, Calendar & more",
