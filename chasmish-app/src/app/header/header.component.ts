@@ -22,7 +22,7 @@ export class HeaderComponent {
       if (event instanceof NavigationEnd) {
         this.currentRoute = event.urlAfterRedirects;
         this.currentRouteLabel = this.routes.find(
-          route => route.path === this.currentRoute && this.currentRoute!=='/home')?.label ?? 'Link hub';
+          route => route.path === this.currentRoute && this.currentRoute!=='/home')?.label ?? '';
         this.isMenuOpen = false; // Close the menu when route changes
         console.log(this.currentRoute);
       }

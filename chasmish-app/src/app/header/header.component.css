@@ -3,12 +3,59 @@
     width: 100%;
     top: 0;
     height: var(--navbarHeight);
+    /* min-height: var(--navbarHeight);
+    max-height: var(--navbarHeight);
+    line-height: var(--navbarHeight); */
     justify-content: space-between;
     display: flex; 
     align-items: center; 
     position: fixed; 
-    background-color: #f8f9fa; 
+    /* background-color: #f8f9fa;  */
+    background-color: #000000; 
     overflow: hidden; 
+    box-sizing:content-box;
+    padding:0px;
+}
+.navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0;               /* remove vertical padding that can increase height */
+    margin: 0;
+    /* gap: 0.5rem; */
+}
+/* constrain logos so they never exceed navbar */
+.brandLogo{
+    height: var(--navbarHeight);
+    vertical-align: middle;
+} 
+.brandLogoSpecs,
+.brandLogoChasmish
+{
+    display: inline-block;
+/* small breathing room */
+    height: auto;
+    width: auto;
+    vertical-align: middle;
+}
+.brandLogoChasmish{
+    max-height: calc(var(--navbarHeight) - 1.5rem);
+}
+.brandLogoSpecs{
+    max-height: calc(var(--navbarHeight)); 
+    margin-left:1rem;
+    margin-right:1rem;
+}
+.brandLink {
+  all: unset;                    /* remove inherited anchor styles */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  /* preserve accessible name/keyboard focus */
+  -webkit-tap-highlight-color: transparent;
 }
 .navbar-toggler
 {
@@ -66,10 +113,11 @@
 .navbar-brand {
     padding: 0;
 }
-.brandLogo{
+
+/* .brandLogo{
     height: var(--navbarHeight);
     vertical-align: middle;
-}
+} */
 
 .brand {
     text-align: center;

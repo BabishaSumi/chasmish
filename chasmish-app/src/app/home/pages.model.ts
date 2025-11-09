@@ -3,7 +3,7 @@ import {
   faInstagram, faYoutube, faBlogger, faAmazon, faSpotify,
   faWhatsapp, faPinterest
 } from '@fortawesome/free-brands-svg-icons';
-import { faShop, faBug, faEnvelope, faNewspaper, faLink, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faShop, faBug, faEnvelope, faNewspaper, faLink, faCartShopping, faQuestionCircle, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import 'reflect-metadata';
 import { Type } from 'class-transformer';
 export class Link {
@@ -28,6 +28,8 @@ export class Link {
       case "spotify": this.linkIcon = faSpotify; break;
       case "blogger": this.linkIcon = faBlogger; break;
       case "newspaper": this.linkIcon = faNewspaper; break;
+      case "questionCircle": this.linkIcon = faQuestionCircle; break;
+      case "infoCircle": this.linkIcon = faInfoCircle; break;
       default: this.linkIcon = faBug; break;
     }
 
